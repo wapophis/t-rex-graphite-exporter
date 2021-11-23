@@ -12,7 +12,7 @@ public class AccountMetricsTest {
 
     @Test
     public void getBreakEventInDays() {
-        String poolUrl="https://eth.2miners.com/api/accounts/bc1qwx06srxwyss2e8wufg9audwg9sdx8dwp04gexq";
+        String poolUrl="https://eth.2miners.com/api/accounts/";
         AccountMetrics accountMetrics=new AccountMetrics();
         accountMetrics.setAccount(new JsonClient().http().get(poolUrl).object(Account.class));
         Double inDays=accountMetrics.getBreakEventInDays(8000.0).getValue();
@@ -22,7 +22,7 @@ public class AccountMetricsTest {
     @Test
     public void getUnpaidBalanceInEuros() {
 
-        String poolUrl="https://eth.2miners.com/api/accounts/bc1qwx06srxwyss2e8wufg9audwg9sdx8dwp04gexq";
+        String poolUrl="https://eth.2miners.com/api/accounts/";
         AccountMetrics accountMetrics=new AccountMetrics();
         accountMetrics.setAccount(new JsonClient().http().get(poolUrl).object(Account.class));
         Double result=accountMetrics.getUnpaidBalanceInEuros().getValue();
