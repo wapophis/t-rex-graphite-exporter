@@ -47,9 +47,7 @@ public class TwoMinersExporter {
         try {
             if (!metricsInialized) {
                 metricRegistry = new MetricRegistry();
-                JsonClient jsonClient = new JsonClient();
                 accountMetrics = new AccountMetrics();
-                accountMetrics.setAccount(jsonClient.http().get(poolUrl + "/api/accounts/" + poolUser).object(Account.class));
                 accountMetrics.setPoolUrl(poolUrl);
                 accountMetrics.setPoolUser(poolUser);
 
@@ -105,7 +103,7 @@ public class TwoMinersExporter {
                 }
 
                 metricsInialized = true;
-                this.poll2Miners(60000);
+
 
             }
         }catch (Exception e){
@@ -138,7 +136,7 @@ public class TwoMinersExporter {
     }
 
 
-    public void poll2Miners(long interval) {
+   /* public void poll2Miners(long interval) {
 
         Executors.newSingleThreadExecutor().submit(new Runnable() {
             @Override
@@ -182,5 +180,5 @@ public class TwoMinersExporter {
     }
 
 
-
+*/
 }

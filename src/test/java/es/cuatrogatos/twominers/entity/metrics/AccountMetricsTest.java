@@ -15,13 +15,13 @@ public class AccountMetricsTest {
 
     AccountMetrics accountMetrics;
 
-    String poolUrl="https://eth.2miners.com/api/accounts/";
-    String poolUser=System.getenv("TWO_MINERS_TEST_ACCOUNT");
+    String poolUrl="https://eth.2miners.com";
+
     @Before
     public void setUp() throws Exception {
         accountMetrics=new AccountMetrics();
         accountMetrics.setPoolUrl(poolUrl);
-        accountMetrics.setPoolUser(poolUser);
+        accountMetrics.setPoolUser(System.getenv("TWO_MINERS_TEST_ACCOUNT"));
     }
 
     @Test

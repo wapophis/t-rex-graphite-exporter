@@ -18,18 +18,10 @@ import java.util.function.Consumer;
 import java.util.function.Predicate;
 
 public class AccountMetrics {
-    private Account account;
     private String poolUrl;
     private String poolUser;
 
 
-    public Account getAccount() {
-        return account;
-    }
-
-    public void setAccount(Account account) {
-        this.account = account;
-    }
 
     public Gauge<Long> getUnpaidBalance(){
         return new Gauge<Long>() {
@@ -298,8 +290,8 @@ public class AccountMetrics {
                 SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd");
                 Double valuePayed=new Double(0.0);
                 // EACH PAYMENT IN BTC IS CALCULATED TO THE SPOT PRICE OF THAT DAY
-                for(int i=0;i<account.getPayments().size();i++){
-                    HashMap<String,Object> payment= (HashMap<String, Object>) account.getPayments().get(i);
+                for(int i=0;i<TwoMinersClient.getAccount(poolUrl,poolUser).getPayments().size();i++){
+                    HashMap<String,Object> payment= (HashMap<String, Object>) TwoMinersClient.getAccount(poolUrl,poolUser).getPayments().get(i);
                     Date payedAt=new Date(Integer.valueOf((Integer) payment.get("timestamp")).longValue()*1000);
                     Integer amount= (Integer) payment.get("amount");
                     Double ethInUsd=CoinBaseClient.getCurrentSpotPrice("ETH-USD",sdf.format(payedAt)).getAmount();
@@ -318,7 +310,7 @@ public class AccountMetrics {
         return new Gauge<Long>() {
             @Override
             public Long getValue() {
-                if(account==null || account.getStats()==null){
+                if(TwoMinersClient.getAccount(poolUrl,poolUser)==null || TwoMinersClient.getAccount(poolUrl,poolUser).getStats()==null){
                     return 1L;
                 }
                 return 0L;
