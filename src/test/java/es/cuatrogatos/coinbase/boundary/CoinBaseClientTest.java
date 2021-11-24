@@ -28,10 +28,8 @@ public class CoinBaseClientTest {
 
     @Test
     public void getExchangeRate() throws InterruptedException {
-        while(true) {
             Logger.getAnonymousLogger().warning("EUR-BTC"+CoinBaseClient.getExchangeRate("EUR", "BTC"));
             Logger.getAnonymousLogger().warning("EUR:BTC-ETH"+CoinBaseClient.getExchangeRate("EUR", "BTC-ETH"));
-            Thread.sleep(10000);
-        }
     }
+
 }

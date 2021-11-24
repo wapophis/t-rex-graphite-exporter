@@ -10,9 +10,6 @@ public class EisosExporterTest {
     public void export() throws InterruptedException {
         EisosExporter exporter=new EisosExporter(60*1000L,"testworker",100);
         exporter.export("localhost",2003,true);
-        while(true){
-            Thread.sleep(1000);
-        }
 
     }
 }

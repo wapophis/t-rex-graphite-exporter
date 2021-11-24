@@ -21,7 +21,6 @@ public class AccountMetricsTest {
 
     @Test
     public void getUnpaidBalanceInEuros() {
-
         String poolUrl="https://eth.2miners.com/api/accounts/";
         AccountMetrics accountMetrics=new AccountMetrics();
         accountMetrics.setAccount(new JsonClient().http().get(poolUrl).object(Account.class));

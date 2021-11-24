@@ -17,13 +17,11 @@ public class EisosMetricsTest {
         long initialDelay=(((new Date().getTime()+60000)/60000)*60000)-new Date().getTime();
         EisosMetrics metrics=new EisosMetrics("test",60);
 
-        while(true){
-            Thread.sleep(initialDelay);
-            initialDelay=0;
+
             Logger.getAnonymousLogger().warning(""+ metrics.getFramePowerCost(140).getValue());
             Logger.getAnonymousLogger().warning(""+ metrics.getPricePerKwH().getValue());
             Logger.getAnonymousLogger().warning(""+ metrics.getOverAllCost().getValue());
             Thread.sleep(60000);
-        }
+
     }
 }
