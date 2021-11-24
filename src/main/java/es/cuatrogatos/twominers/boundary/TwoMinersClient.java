@@ -36,7 +36,7 @@ public class TwoMinersClient {
 
     private static synchronized Account retrieveAccount(String uri,String account){
 
-        if(lastUpdatedCache+cacheTtl>=new Date().getTime()){
+        if(myAccount==null || lastUpdatedCache+cacheTtl>=new Date().getTime()){
             Logger.getLogger("TWOMINERS-CLIENT: Retrieving data from twominers api");
             myAccount= new JsonClient().http().get(uri + "/api/accounts/" + account).object(Account.class);
             lastUpdatedCache=new Date().getTime();
