@@ -25,7 +25,7 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
       env:
-        AEMET_TOKEN: ${{secrets.AEMET_TOKEN}}
+        AEMET_TOKEN: ${{secrets.AEMET_API_KEY}}
         TWO_MINERS_TEST_ACCOUNT: ${{secrets.TWO_MINERS_TEST_ACCOUNT}}
     - name: Stage
       run: mkdir staging && cp target/*.jar staging

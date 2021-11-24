@@ -18,7 +18,7 @@ public class AemetClientTest {
 
     @Test
     public void getDatosEstacion() {
-        DatosEstacion data=AemetClient.getDatosEstacion("5429X",new DateTime().minusMinutes(60));
+        DatosEstacion data=AemetClient.getDatosEstacion("5429X",new DateTime().minusMinutes(120));
         Logger.getAnonymousLogger().warning(data.toString());
     }
 
