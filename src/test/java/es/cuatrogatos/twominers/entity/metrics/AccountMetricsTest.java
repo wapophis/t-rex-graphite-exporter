@@ -26,15 +26,14 @@ public class AccountMetricsTest {
 
     @Test
     public void getBreakEventInDays() {
+        Double result=accountMetrics.getBreakEventInDays(1000.0).getValue();
+        Logger.getAnonymousLogger().warning(""+result);
 
-
-        accountMetrics.getBreakEventInDays(1000.0);
     }
 
     @Test
     public void getUnpaidBalanceInEuros() {
         String poolUrl="https://eth.2miners.com/api/accounts/";
-        AccountMetrics accountMetrics=new AccountMetrics();
         Double result=accountMetrics.getUnpaidBalanceInEuros().getValue();
         Logger.getAnonymousLogger().warning(""+result);
     }
