@@ -24,6 +24,9 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+      env:
+        AEMET_TOKEN: ${{ secrets.AEMET_TOKEN }}
+        TWO_MINERS_TEST_ACCOUNT: ${{secrets.TWO_MINERS_TEST_ACCOUNT}}
     - name: Stage
       run: mkdir staging && cp target/*.jar staging
     - uses: actions/upload-artifact@v2

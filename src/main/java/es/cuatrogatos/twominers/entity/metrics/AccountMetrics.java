@@ -280,16 +280,12 @@ public class AccountMetrics {
 
     }
 
-
-
     public Gauge<Double> getBreakEventInDays(final Double baseCapital){
-
         return new Gauge<Double>() {
             @Override
             public Double getValue() {
-
-                 return (baseCapital-getPayedValueInEur().getValue())/( ((Double.valueOf(getSumReward(86400L).getValue().toString())/1000000000)*(1/CoinBaseClient.getExchangeRate("EUR","ETH")))
-                 );
+                 //return (baseCapital-getPayedValueInEur().getValue())/( ((Double.valueOf(getSumReward(86400L).getValue().toString())/1000000000)*(1/CoinBaseClient.getExchangeRate("EUR","ETH")))
+                return (baseCapital-getPayedValueInEur().getValue())/( (getSumDayRewardAt(new Date(((new Date().getTime()/(24*60*60*1000))*(24*60*60*1000))-1))).getValue()/1000000000)*(1/CoinBaseClient.getExchangeRate("EUR","ETH"));
             }
         };
     }

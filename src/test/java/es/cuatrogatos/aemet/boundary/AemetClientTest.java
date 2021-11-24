@@ -2,6 +2,7 @@ package es.cuatrogatos.aemet.boundary;
 
 import es.cuatrogatos.aemet.entity.DatosEstacion;
 import org.joda.time.DateTime;
+import org.junit.Before;
 import org.junit.Test;
 
 import java.util.logging.Logger;
@@ -9,6 +10,11 @@ import java.util.logging.Logger;
 import static org.junit.Assert.*;
 
 public class AemetClientTest {
+
+    @Before
+    public void setUp() throws Exception {
+        AemetClient.setToken(System.getenv("AEMET_TOKEN"));
+    }
 
     @Test
     public void getDatosEstacion() {
