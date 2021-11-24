@@ -108,9 +108,9 @@ public class Exporter {
         try {
             // parse the command line arguments
             CommandLine line = parser.parse( options, args );
+            processExtraOptions(line);
 
             processTrexOptions(line);
-            processExtraOptions(line);
             processCarbonOptions(line);
             processAemetOptions(line);
             processEisosOptions(line);
@@ -206,6 +206,8 @@ public class Exporter {
             xPowerOffset=Float.valueOf(line.getOptionValue(X_POWER_CONSUMPTION_OFFSET));
             myLogger.warning(ConsoleColors.GREEN+" CLIENT IS REPORTING WITH AN OFFSET OF "+xPowerOffset+" Wh "+ConsoleColors.RESET);
         }
+
+        dryRun=line.hasOption(DRYRUN);
     }
 
 }

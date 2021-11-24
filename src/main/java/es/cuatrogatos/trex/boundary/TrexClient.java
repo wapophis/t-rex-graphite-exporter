@@ -4,6 +4,7 @@ import es.cuatrogatos.trex.entity.Summary;
 import no.bouvet.jsonclient.JsonClient;
 
 import java.util.Date;
+import java.util.logging.Logger;
 
 public class TrexClient {
 
@@ -36,7 +37,9 @@ public class TrexClient {
 
 
     private static synchronized Summary retrieveCachedSummary(){
+
         if(cachedSummary==null || lastUpdatedCached+cachedTttl>=new Date().getTime()){
+            Logger.getLogger("TREX-CLIENT: Retrieving data from trex");
             cachedSummary=new JsonClient().http().get(trexApiUrl + "/summary").object(Summary.class);
             lastUpdatedCached=new Date().getTime();
         }

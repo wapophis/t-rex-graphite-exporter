@@ -5,6 +5,7 @@ import es.cuatrogatos.twominers.entity.Stats;
 import no.bouvet.jsonclient.JsonClient;
 
 import java.util.Date;
+import java.util.logging.Logger;
 
 public class TwoMinersClient {
 
@@ -35,7 +36,8 @@ public class TwoMinersClient {
 
     private static synchronized Account retrieveAccount(String uri,String account){
 
-        if(new Date().getTime()-lastUpdatedCache>=cacheTtl){
+        if(lastUpdatedCache+cacheTtl>=new Date().getTime()){
+            Logger.getLogger("TWOMINERS-CLIENT: Retrieving data from twominers api");
             myAccount= new JsonClient().http().get(uri + "/api/accounts/" + account).object(Account.class);
             lastUpdatedCache=new Date().getTime();
         }
