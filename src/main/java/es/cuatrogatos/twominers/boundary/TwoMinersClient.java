@@ -37,6 +37,7 @@ public class TwoMinersClient {
 
         if(new Date().getTime()-lastUpdatedCache>=cacheTtl){
             myAccount= new JsonClient().http().get(uri + "/api/accounts/" + account).object(Account.class);
+            lastUpdatedCache=new Date().getTime();
         }
         return myAccount;
     }
