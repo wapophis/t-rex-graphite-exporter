@@ -11,6 +11,7 @@ import es.cuatrogatos.twominers.entity.Account;
 import es.cuatrogatos.twominers.entity.MinerPoolErrorBeacon;
 import es.cuatrogatos.twominers.entity.metrics.AccountMetrics;
 import no.bouvet.jsonclient.JsonClient;
+import org.joda.time.DateTime;
 
 import java.net.InetSocketAddress;
 import java.util.Date;
@@ -87,6 +88,14 @@ public class TwoMinersExporter {
 
                 // REWARDS
                 metricRegistry.register("rewards.last24Hours",accountMetrics.getSumReward(86400L));
+                metricRegistry.register("rewards.yesterday",accountMetrics.getSumDayRewardAt(new Date(((new Date().getTime()/(24*60*60*1000))*(24*60*60*1000))-1)));
+
+
+                // PRODUCTIVITY MINING
+                metricRegistry.register("rewards.getLastSharePercentInBlock",accountMetrics.getLastSharePercentInBlock());
+                metricRegistry.register("rewards.getLastShareRewardInBlock",accountMetrics.getLastSharePercentInBlock());
+
+
                 // PAYMENTS
                 metricRegistry.register("payments.payed.eur",accountMetrics.getPayedValueInEur());
 

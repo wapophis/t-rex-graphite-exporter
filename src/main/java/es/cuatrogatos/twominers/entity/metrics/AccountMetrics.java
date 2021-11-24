@@ -4,10 +4,14 @@ import com.codahale.metrics.Gauge;
 import es.cuatrogatos.coinbase.boundary.CoinBaseClient;
 import es.cuatrogatos.twominers.boundary.TwoMinersClient;
 import es.cuatrogatos.twominers.entity.Account;
+import es.cuatrogatos.twominers.entity.Reward;
 import es.cuatrogatos.twominers.entity.SumRewards;
+import org.joda.time.Interval;
 
 import javax.swing.*;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.function.Consumer;
@@ -201,6 +205,81 @@ public class AccountMetrics {
             }
         };
     }
+
+
+    /**
+     * Metric which get the last day sum rewards from 00:00:00 to 23:59:59
+     * @param date date to take sum metrics
+     * @return long value
+     */
+    public Gauge<Long> getSumDayRewardAt(Date date){
+
+        return new Gauge<Long>() {
+            long oVal=0L;
+            long dayStartAt=(date.getTime()/(24*60*60*1000))*(24*60*60*1000);
+            long dayEndAt=dayStartAt+(24*60*60*1000);
+
+            @Override
+            public Long getValue() {
+                TwoMinersClient.getAccount(poolUrl,poolUser).getRewards().forEach(new Consumer<Reward>() {
+                    @Override
+                    public void accept(Reward reward) {
+                        if(reward.getTimestamp()>=dayStartAt && reward.getTimestamp()<=dayEndAt){
+                            oVal+=reward.getReward();
+                        }
+                    }
+                });
+            return oVal;
+            };
+        };
+    }
+
+
+    /**
+     * Returns the share in the last registered reward *
+     * @return
+     */
+    public Gauge<Long> getLastSharePercentInBlock(){
+        return new Gauge<Long>() {
+            @Override
+            public Long getValue() {
+                ArrayList<Reward> copyOf=new ArrayList<>();
+                copyOf.addAll(TwoMinersClient.getAccount(poolUrl,poolUser).getRewards());
+                copyOf.sort(new Comparator<Reward>() {
+                    @Override
+                    public int compare(Reward reward, Reward t1) {
+                        return Long.compare(reward.getTimestamp(),t1.getReward());
+                    }
+                });
+                return copyOf.get(copyOf.size()).getPercent();
+            }
+        };
+
+    }
+
+
+    /**
+     * Returns the share in the last registered reward *
+     * @return
+     */
+    public Gauge<Long> getLastShareRewardInBlock(){
+        return new Gauge<Long>() {
+            @Override
+            public Long getValue() {
+                ArrayList<Reward> copyOf=new ArrayList<>();
+                copyOf.addAll(TwoMinersClient.getAccount(poolUrl,poolUser).getRewards());
+                copyOf.sort(new Comparator<Reward>() {
+                    @Override
+                    public int compare(Reward reward, Reward t1) {
+                        return Long.compare(reward.getTimestamp(),t1.getReward());
+                    }
+                });
+                return copyOf.get(copyOf.size()).getReward();
+            }
+        };
+
+    }
+
 
 
     public Gauge<Double> getBreakEventInDays(final Double baseCapital){
