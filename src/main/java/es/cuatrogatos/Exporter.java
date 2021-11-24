@@ -101,15 +101,17 @@ public class Exporter {
         options.addOption(X_CAPITAL_INVESTED,X_CAPITAL_INVESTED_GNU,true,"Capital invest to get break event");
         options.addOption(X_POWER_CONSUMPTION_OFFSET,X_POWER_CONSUMPTION_OFFSET_GNU,true,"Offset to apply to the power consumption");
 
+        options.addOption(EISOS_CADENCY_IN_MILLIS,EISOS_CADENCY_IN_MILLIS_GNU,true," Calc price power consumption in spain using eisos api to retrieve current electrical cost. Setup the interval to report this info to the graphite server and calc cadency.");
+
 
 
         try {
             // parse the command line arguments
             CommandLine line = parser.parse( options, args );
 
+            processTrexOptions(line);
             processExtraOptions(line);
             processCarbonOptions(line);
-            processTrexOptions(line);
             processAemetOptions(line);
             processEisosOptions(line);
             processTwoMinersOptions(line);
