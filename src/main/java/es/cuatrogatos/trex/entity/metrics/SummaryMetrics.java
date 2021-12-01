@@ -5,7 +5,10 @@ import com.codahale.metrics.Gauge;
 import es.cuatrogatos.trex.boundary.TrexClient;
 import es.cuatrogatos.trex.entity.Summary;
 
+import java.util.logging.Logger;
+
 public class SummaryMetrics {
+    private Logger logger= Logger.getLogger("SummaryMetrics");
 
     public Gauge<Long> getGpuMemoryTemp(int index){
         return new Gauge<Long>() {
@@ -158,6 +161,7 @@ public class SummaryMetrics {
 
 
     public String getWorker(){
+        logger.warning("GETWORKER");
         return TrexClient.getSummary().getActive_pool().get("worker").toString();
     }
 }

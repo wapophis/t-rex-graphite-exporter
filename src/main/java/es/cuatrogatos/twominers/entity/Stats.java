@@ -6,6 +6,7 @@ public class Stats {
     private long lastShare;
     private long paid;
     private long pending;
+    private long blocksFound;
 
     public long getLastShare() {
         return lastShare;
@@ -46,10 +47,29 @@ public class Stats {
     public void setPending(long pending) {
         this.pending = pending;
     }
+
+    public long getBlocksFound() {
+        return blocksFound;
+    }
+
+    public void setBlocksFound(long blocksFound) {
+        this.blocksFound = blocksFound;
+    }
+}
     /**  "stats": {
      "balance": 5854643,
      "immature": 0,
      "lastShare": 1635355445
      },*/
 
-}
+
+    /*"stats": {
+        "balance": 18409822,
+                "blocksFound": 1,
+                "immature": 126710,
+                "lastShare": 1638359043,
+                "paid": 235293019,
+                "pending": 0
+    },*/
+
+

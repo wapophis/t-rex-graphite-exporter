@@ -14,6 +14,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.logging.Logger;
 
 public class AemetExporter {
+    Logger logger=Logger.getLogger("COINBASE-EXPORTER");
 
     private long exportInterval=-1;
 
@@ -50,7 +51,8 @@ public class AemetExporter {
         Executors.newFixedThreadPool(1).execute(new Runnable() {
             @Override
             public void run() {
-                Logger.getAnonymousLogger().warning("STARTING AEMET DATA PUSHING USING INTERVAL "+exportInterval+ " IN MILLISECONDS");
+                logger.warning("STARTING THE EXPORT ROUTINE");
+
                 /// START PUSHING
                 final Graphite graphite = new Graphite(new InetSocketAddress(hostName, port));
                 final GraphiteReporter remoteReporter = GraphiteReporter.forRegistry(metricRegistry)
@@ -63,6 +65,8 @@ public class AemetExporter {
                 long initialDelay=(((new Date().getTime()+exportInterval)/exportInterval)*exportInterval)-new Date().getTime();
                 if(!dryRun) {
                     remoteReporter.start(initialDelay,exportInterval, TimeUnit.MILLISECONDS);
+                    logger.warning("DRYRUN IN FALSE, REPORTING...");
+
                 }
             }
         });

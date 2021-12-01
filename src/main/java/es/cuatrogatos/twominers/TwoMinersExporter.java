@@ -20,6 +20,9 @@ import java.util.concurrent.TimeUnit;
 import java.util.logging.Logger;
 
 public class TwoMinersExporter {
+
+    Logger logger=Logger.getLogger("TWOMINERS-EXPORTER");
+
     private String poolUrl;
     private String poolUser;
 
@@ -36,6 +39,7 @@ public class TwoMinersExporter {
 
     public TwoMinersExporter(String poolUrl, String poolUser, Double capitalInvested,long flushInterval){
         this.poolUrl="https://"+(poolUrl.split("//")[1].split(":")[0]);
+        logger.info("POOL USER INITIALIZED WITH "+poolUser);
         this.poolUser=poolUser;
         this.capitalInvested=capitalInvested;
         this.flushInterval=flushInterval;
@@ -46,14 +50,11 @@ public class TwoMinersExporter {
     public boolean initializeMetricsRegistry(){
         try {
             if (!metricsInialized) {
-                metricRegistry = new MetricRegistry();
                 accountMetrics = new AccountMetrics();
                 accountMetrics.setPoolUrl(poolUrl);
                 accountMetrics.setPoolUser(poolUser);
 
-
-                SharedMetricRegistries.add("2miners.account", metricRegistry);
-
+                metricRegistry = new MetricRegistry();
                 // STATS
                 metricRegistry.register("stats.unConfirmedBalance", accountMetrics.getUnConfirmedBalance());
 
@@ -118,9 +119,12 @@ public class TwoMinersExporter {
 
 
     public void export(String hostname,int port,boolean dryRun){
+
+        String metricsPrefix="2miners."+poolUser;
+        logger.warning("STARTING THE EXPORT ROUTINE, USING PREFIX "+metricsPrefix);
         final Graphite graphite = new Graphite(new InetSocketAddress(hostname,port));
         final GraphiteReporter remoteReporter = GraphiteReporter.forRegistry(metricRegistry)
-                .prefixedWith("2miners."+poolUser)
+                .prefixedWith(metricsPrefix)
                 .convertRatesTo(TimeUnit.SECONDS)
                 .convertDurationsTo(TimeUnit.MILLISECONDS)
                 .filter(MetricFilter.ALL)
@@ -129,6 +133,8 @@ public class TwoMinersExporter {
         long initialDelay=(((new Date().getTime()+flushInterval)/flushInterval)*flushInterval)-new Date().getTime();
         if(!dryRun){
             remoteReporter.start(initialDelay,flushInterval, TimeUnit.MILLISECONDS);
+            logger.warning("DRYRUN IN FALSE, REPORTING...");
+
         }
 
 

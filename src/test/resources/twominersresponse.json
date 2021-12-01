@@ -1,0 +1,5662 @@
+{
+  "24hnumreward": 199,
+  "24hreward": 9248330,
+  "apiVersion": 200,
+  "config": {
+    "allowedMaxPayout": 10000000000,
+    "allowedMinPayout": 5000000,
+    "defaultMinPayout": 5000000,
+    "ipHint": "x.x.x.x",
+    "ipWorkerName": "workername",
+    "minPayout": 45000000,
+    "paymentHubHint": "BTC"
+  },
+  "currentHashrate": 455705877,
+  "currentLuck": "0.11",
+  "hashrate": 495701340,
+  "pageSize": 65,
+  "payments": [
+    {
+      "amount": 47354407,
+      "timestamp": 1638186180,
+      "tx": "",
+      "txFee": 0
+    },
+    {
+      "amount": 45774232,
+      "timestamp": 1637758328,
+      "tx": "",
+      "txFee": 0
+    },
+    {
+      "amount": 78150001,
+      "timestamp": 1637324733,
+      "tx": "",
+      "txFee": 0
+    },
+    {
+      "amount": 55130802,
+      "timestamp": 1636545386,
+      "tx": "",
+      "txFee": 0
+    },
+    {
+      "amount": 8883577,
+      "timestamp": 1635853636,
+      "tx": "",
+      "txFee": 0
+    }
+  ],
+  "paymentsTotal": 5,
+  "rewards": [
+    {
+      "blockheight": 13720820,
+      "timestamp": 1638358517,
+      "reward": 44342,
+      "percent": 0.00002,
+      "immature": true,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13720784,
+      "timestamp": 1638358044,
+      "reward": 6643,
+      "percent": 0.000003333,
+      "immature": true,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13720771,
+      "timestamp": 1638357886,
+      "reward": 41148,
+      "percent": 0.00002,
+      "immature": true,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13720748,
+      "timestamp": 1638357664,
+      "reward": 34577,
+      "percent": 0.000016667,
+      "immature": true,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13720693,
+      "timestamp": 1638356803,
+      "reward": 67382,
+      "percent": 0.000033333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13720689,
+      "timestamp": 1638356754,
+      "reward": 60100,
+      "percent": 0.00003,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13720671,
+      "timestamp": 1638356524,
+      "reward": 26689,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13720619,
+      "timestamp": 1638355733,
+      "reward": 65365,
+      "percent": 0.00003,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13720592,
+      "timestamp": 1638355350,
+      "reward": 30917,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13720515,
+      "timestamp": 1638354407,
+      "reward": 46199,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13720502,
+      "timestamp": 1638354278,
+      "reward": 14205,
+      "percent": 0.000006667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13720501,
+      "timestamp": 1638354268,
+      "reward": 20017,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13720470,
+      "timestamp": 1638353860,
+      "reward": 36668,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13720460,
+      "timestamp": 1638353757,
+      "reward": 23587,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13720453,
+      "timestamp": 1638353595,
+      "reward": 82493,
+      "percent": 0.00004,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13720418,
+      "timestamp": 1638353096,
+      "reward": 60475,
+      "percent": 0.00003,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13720395,
+      "timestamp": 1638352804,
+      "reward": 26738,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13720332,
+      "timestamp": 1638351824,
+      "reward": 94273,
+      "percent": 0.000043333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13720271,
+      "timestamp": 1638351150,
+      "reward": 45286,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13720254,
+      "timestamp": 1638350925,
+      "reward": 87432,
+      "percent": 0.00004,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13720221,
+      "timestamp": 1638350457,
+      "reward": 16828,
+      "percent": 0.000006667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13720180,
+      "timestamp": 1638349876,
+      "reward": 28602,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13719757,
+      "timestamp": 1638343620,
+      "reward": 42168,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13719717,
+      "timestamp": 1638342890,
+      "reward": 62228,
+      "percent": 0.00003,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13719686,
+      "timestamp": 1638342428,
+      "reward": 27197,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13719591,
+      "timestamp": 1638341060,
+      "reward": 20431,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13719567,
+      "timestamp": 1638340684,
+      "reward": 52862,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13719553,
+      "timestamp": 1638340532,
+      "reward": 35486,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13719543,
+      "timestamp": 1638340426,
+      "reward": 20741,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13719540,
+      "timestamp": 1638340369,
+      "reward": 73726,
+      "percent": 0.00003,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13719501,
+      "timestamp": 1638339669,
+      "reward": 42083,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13719442,
+      "timestamp": 1638338815,
+      "reward": 37900,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13719432,
+      "timestamp": 1638338669,
+      "reward": 67309,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13719404,
+      "timestamp": 1638338174,
+      "reward": 41334,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13719385,
+      "timestamp": 1638337932,
+      "reward": 42168,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13719338,
+      "timestamp": 1638337368,
+      "reward": 20789,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13719327,
+      "timestamp": 1638337267,
+      "reward": 7322,
+      "percent": 0.000003333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13719299,
+      "timestamp": 1638336934,
+      "reward": 27398,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13719296,
+      "timestamp": 1638336906,
+      "reward": 33403,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13719245,
+      "timestamp": 1638336093,
+      "reward": 48296,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13719224,
+      "timestamp": 1638335803,
+      "reward": 26540,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13719212,
+      "timestamp": 1638335638,
+      "reward": 19927,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13719186,
+      "timestamp": 1638335245,
+      "reward": 34649,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13719164,
+      "timestamp": 1638334970,
+      "reward": 69059,
+      "percent": 0.00003,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13719163,
+      "timestamp": 1638334948,
+      "reward": 46659,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13719106,
+      "timestamp": 1638334262,
+      "reward": 43200,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13719082,
+      "timestamp": 1638333970,
+      "reward": 40344,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13719077,
+      "timestamp": 1638333907,
+      "reward": 13747,
+      "percent": 0.000006667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13718995,
+      "timestamp": 1638332837,
+      "reward": 66338,
+      "percent": 0.000033333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13718974,
+      "timestamp": 1638332598,
+      "reward": 84567,
+      "percent": 0.000036667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13718925,
+      "timestamp": 1638331945,
+      "reward": 70956,
+      "percent": 0.000033333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13718918,
+      "timestamp": 1638331873,
+      "reward": 46921,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13718849,
+      "timestamp": 1638330907,
+      "reward": 72642,
+      "percent": 0.00003,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13718840,
+      "timestamp": 1638330759,
+      "reward": 60375,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13718759,
+      "timestamp": 1638329798,
+      "reward": 29321,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13718731,
+      "timestamp": 1638329460,
+      "reward": 55063,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13718682,
+      "timestamp": 1638328776,
+      "reward": 36448,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13718633,
+      "timestamp": 1638327997,
+      "reward": 54839,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13718599,
+      "timestamp": 1638327597,
+      "reward": 19832,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13718558,
+      "timestamp": 1638326898,
+      "reward": 73168,
+      "percent": 0.00003,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13718552,
+      "timestamp": 1638326855,
+      "reward": 41209,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13718546,
+      "timestamp": 1638326796,
+      "reward": 43084,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13718509,
+      "timestamp": 1638326224,
+      "reward": 82563,
+      "percent": 0.000036667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13718401,
+      "timestamp": 1638324640,
+      "reward": 46451,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13718363,
+      "timestamp": 1638324182,
+      "reward": 68564,
+      "percent": 0.00003,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13718343,
+      "timestamp": 1638323832,
+      "reward": 98303,
+      "percent": 0.000046667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13718303,
+      "timestamp": 1638323229,
+      "reward": 29921,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13718292,
+      "timestamp": 1638323078,
+      "reward": 39912,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13718273,
+      "timestamp": 1638322805,
+      "reward": 23099,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13718243,
+      "timestamp": 1638322417,
+      "reward": 82365,
+      "percent": 0.000033333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13718239,
+      "timestamp": 1638322377,
+      "reward": 62637,
+      "percent": 0.00003,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13718228,
+      "timestamp": 1638322229,
+      "reward": 33928,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13718202,
+      "timestamp": 1638321917,
+      "reward": 33389,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13718196,
+      "timestamp": 1638321800,
+      "reward": 24749,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13718136,
+      "timestamp": 1638321138,
+      "reward": 54823,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13718097,
+      "timestamp": 1638320648,
+      "reward": 20225,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13718083,
+      "timestamp": 1638320477,
+      "reward": 53657,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13718058,
+      "timestamp": 1638320184,
+      "reward": 80466,
+      "percent": 0.00004,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13718015,
+      "timestamp": 1638319649,
+      "reward": 22525,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13718008,
+      "timestamp": 1638319561,
+      "reward": 70346,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13717991,
+      "timestamp": 1638319267,
+      "reward": 108473,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13717929,
+      "timestamp": 1638318214,
+      "reward": 43394,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13717926,
+      "timestamp": 1638318188,
+      "reward": 34681,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13717919,
+      "timestamp": 1638318105,
+      "reward": 44040,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13717885,
+      "timestamp": 1638317607,
+      "reward": 27665,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13717875,
+      "timestamp": 1638317372,
+      "reward": 22216,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13717819,
+      "timestamp": 1638316429,
+      "reward": 40007,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13717801,
+      "timestamp": 1638316265,
+      "reward": 43019,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13717720,
+      "timestamp": 1638314965,
+      "reward": 43262,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13717703,
+      "timestamp": 1638314786,
+      "reward": 27536,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13717702,
+      "timestamp": 1638314784,
+      "reward": 27658,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13717695,
+      "timestamp": 1638314730,
+      "reward": 46291,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13717612,
+      "timestamp": 1638313393,
+      "reward": 74005,
+      "percent": 0.000036667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13717595,
+      "timestamp": 1638313214,
+      "reward": 55664,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13717590,
+      "timestamp": 1638313135,
+      "reward": 69087,
+      "percent": 0.000033333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13717545,
+      "timestamp": 1638312436,
+      "reward": 38502,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13717541,
+      "timestamp": 1638312405,
+      "reward": 47856,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13717525,
+      "timestamp": 1638312241,
+      "reward": 21511,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13717432,
+      "timestamp": 1638310905,
+      "reward": 28219,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13717413,
+      "timestamp": 1638310696,
+      "reward": 20336,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13717376,
+      "timestamp": 1638310306,
+      "reward": 26634,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13717369,
+      "timestamp": 1638310249,
+      "reward": 81508,
+      "percent": 0.00004,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13717336,
+      "timestamp": 1638309781,
+      "reward": 46199,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13717316,
+      "timestamp": 1638309545,
+      "reward": 60486,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13717315,
+      "timestamp": 1638309494,
+      "reward": 39877,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13717311,
+      "timestamp": 1638309358,
+      "reward": 20766,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13717269,
+      "timestamp": 1638308602,
+      "reward": 35627,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13717207,
+      "timestamp": 1638307845,
+      "reward": 47059,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13717181,
+      "timestamp": 1638307529,
+      "reward": 81746,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13717177,
+      "timestamp": 1638307483,
+      "reward": 204970,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13717155,
+      "timestamp": 1638307215,
+      "reward": 138590,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13717151,
+      "timestamp": 1638307166,
+      "reward": 51317,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13717100,
+      "timestamp": 1638306504,
+      "reward": 13683,
+      "percent": 0.000006667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13717071,
+      "timestamp": 1638306220,
+      "reward": 62838,
+      "percent": 0.00003,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13717052,
+      "timestamp": 1638306003,
+      "reward": 69002,
+      "percent": 0.000033333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13716973,
+      "timestamp": 1638304993,
+      "reward": 15936,
+      "percent": 0.000006667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13716969,
+      "timestamp": 1638304920,
+      "reward": 27572,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13716961,
+      "timestamp": 1638304832,
+      "reward": 43935,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13716920,
+      "timestamp": 1638304151,
+      "reward": 40647,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13716898,
+      "timestamp": 1638303887,
+      "reward": 47780,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13716816,
+      "timestamp": 1638302733,
+      "reward": 13737,
+      "percent": 0.000006667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13716807,
+      "timestamp": 1638302612,
+      "reward": 11549,
+      "percent": 0.000006667,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13716777,
+      "timestamp": 1638302209,
+      "reward": 39795,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13716775,
+      "timestamp": 1638302174,
+      "reward": 28874,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13716736,
+      "timestamp": 1638301705,
+      "reward": 20045,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13716686,
+      "timestamp": 1638301167,
+      "reward": 40612,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13716658,
+      "timestamp": 1638300718,
+      "reward": 41698,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13716655,
+      "timestamp": 1638300695,
+      "reward": 53547,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13716628,
+      "timestamp": 1638300374,
+      "reward": 56594,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13716604,
+      "timestamp": 1638300114,
+      "reward": 74019,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13716535,
+      "timestamp": 1638299154,
+      "reward": 37149,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13716446,
+      "timestamp": 1638298122,
+      "reward": 49973,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13716437,
+      "timestamp": 1638297979,
+      "reward": 40900,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13716416,
+      "timestamp": 1638297742,
+      "reward": 33812,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13716402,
+      "timestamp": 1638297552,
+      "reward": 84671,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13716385,
+      "timestamp": 1638297333,
+      "reward": 69057,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13716355,
+      "timestamp": 1638296933,
+      "reward": 45492,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13716284,
+      "timestamp": 1638295941,
+      "reward": 28006,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13716261,
+      "timestamp": 1638295590,
+      "reward": 42772,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13716243,
+      "timestamp": 1638295386,
+      "reward": 59886,
+      "percent": 0.00003,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13716241,
+      "timestamp": 1638295371,
+      "reward": 51795,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13716181,
+      "timestamp": 1638294579,
+      "reward": 55833,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13716156,
+      "timestamp": 1638294164,
+      "reward": 40263,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13716131,
+      "timestamp": 1638293895,
+      "reward": 23886,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13716061,
+      "timestamp": 1638292920,
+      "reward": 37565,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13716006,
+      "timestamp": 1638292153,
+      "reward": 48557,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715996,
+      "timestamp": 1638291997,
+      "reward": 45856,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715931,
+      "timestamp": 1638291325,
+      "reward": 84787,
+      "percent": 0.000036667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715913,
+      "timestamp": 1638291066,
+      "reward": 84972,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715875,
+      "timestamp": 1638290433,
+      "reward": 77528,
+      "percent": 0.00003,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715843,
+      "timestamp": 1638289922,
+      "reward": 27580,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715803,
+      "timestamp": 1638289423,
+      "reward": 82538,
+      "percent": 0.000033333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715800,
+      "timestamp": 1638289370,
+      "reward": 42623,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715771,
+      "timestamp": 1638288990,
+      "reward": 14867,
+      "percent": 0.000006667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715731,
+      "timestamp": 1638288440,
+      "reward": 52344,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715695,
+      "timestamp": 1638287947,
+      "reward": 23099,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13715680,
+      "timestamp": 1638287753,
+      "reward": 63407,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715663,
+      "timestamp": 1638287533,
+      "reward": 46199,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13715625,
+      "timestamp": 1638287084,
+      "reward": 35484,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715596,
+      "timestamp": 1638286706,
+      "reward": 34093,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715594,
+      "timestamp": 1638286697,
+      "reward": 47173,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715585,
+      "timestamp": 1638286577,
+      "reward": 61482,
+      "percent": 0.00003,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715581,
+      "timestamp": 1638286531,
+      "reward": 67227,
+      "percent": 0.000033333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715574,
+      "timestamp": 1638286416,
+      "reward": 27843,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715546,
+      "timestamp": 1638286156,
+      "reward": 35764,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715538,
+      "timestamp": 1638286054,
+      "reward": 15542,
+      "percent": 0.000006667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715529,
+      "timestamp": 1638285920,
+      "reward": 53013,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715490,
+      "timestamp": 1638285255,
+      "reward": 46732,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715474,
+      "timestamp": 1638285095,
+      "reward": 89819,
+      "percent": 0.000043333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715457,
+      "timestamp": 1638284861,
+      "reward": 51515,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715455,
+      "timestamp": 1638284815,
+      "reward": 39601,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715450,
+      "timestamp": 1638284742,
+      "reward": 44445,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715407,
+      "timestamp": 1638284017,
+      "reward": 46337,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715375,
+      "timestamp": 1638283564,
+      "reward": 40510,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715313,
+      "timestamp": 1638282754,
+      "reward": 13734,
+      "percent": 0.000006667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715304,
+      "timestamp": 1638282645,
+      "reward": 51974,
+      "percent": 0.00003,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13715271,
+      "timestamp": 1638282273,
+      "reward": 46364,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715256,
+      "timestamp": 1638282023,
+      "reward": 60435,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715245,
+      "timestamp": 1638281905,
+      "reward": 47579,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715238,
+      "timestamp": 1638281800,
+      "reward": 57478,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715193,
+      "timestamp": 1638281198,
+      "reward": 50211,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715178,
+      "timestamp": 1638280969,
+      "reward": 61788,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715174,
+      "timestamp": 1638280887,
+      "reward": 33929,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715123,
+      "timestamp": 1638280204,
+      "reward": 89224,
+      "percent": 0.000033333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715119,
+      "timestamp": 1638280141,
+      "reward": 51974,
+      "percent": 0.00003,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13715111,
+      "timestamp": 1638280091,
+      "reward": 37271,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715074,
+      "timestamp": 1638279606,
+      "reward": 53159,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715068,
+      "timestamp": 1638279530,
+      "reward": 21403,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715055,
+      "timestamp": 1638279278,
+      "reward": 46129,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715017,
+      "timestamp": 1638278748,
+      "reward": 13199,
+      "percent": 0.000006667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13715016,
+      "timestamp": 1638278745,
+      "reward": 14727,
+      "percent": 0.000006667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13714915,
+      "timestamp": 1638277374,
+      "reward": 60673,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13714895,
+      "timestamp": 1638277165,
+      "reward": 42670,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13714874,
+      "timestamp": 1638276846,
+      "reward": 26590,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13714687,
+      "timestamp": 1638274419,
+      "reward": 59976,
+      "percent": 0.00003,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13714627,
+      "timestamp": 1638273736,
+      "reward": 26761,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13714625,
+      "timestamp": 1638273706,
+      "reward": 33189,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13714597,
+      "timestamp": 1638273409,
+      "reward": 35086,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13714562,
+      "timestamp": 1638272881,
+      "reward": 41128,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13714498,
+      "timestamp": 1638271786,
+      "reward": 84250,
+      "percent": 0.00003,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13714495,
+      "timestamp": 1638271760,
+      "reward": 67643,
+      "percent": 0.000033333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13714455,
+      "timestamp": 1638271126,
+      "reward": 81775,
+      "percent": 0.00004,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13714426,
+      "timestamp": 1638270597,
+      "reward": 54991,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13714405,
+      "timestamp": 1638270318,
+      "reward": 21907,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13714401,
+      "timestamp": 1638270234,
+      "reward": 28874,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13714337,
+      "timestamp": 1638269381,
+      "reward": 33445,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13714266,
+      "timestamp": 1638268346,
+      "reward": 13596,
+      "percent": 0.000006667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13714239,
+      "timestamp": 1638268003,
+      "reward": 19842,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13714227,
+      "timestamp": 1638267900,
+      "reward": 44975,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13714221,
+      "timestamp": 1638267824,
+      "reward": 56908,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13714179,
+      "timestamp": 1638267322,
+      "reward": 34073,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13714165,
+      "timestamp": 1638267218,
+      "reward": 53872,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13714145,
+      "timestamp": 1638266875,
+      "reward": 89081,
+      "percent": 0.000043333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13714138,
+      "timestamp": 1638266787,
+      "reward": 47745,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13713980,
+      "timestamp": 1638264263,
+      "reward": 32309,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13713932,
+      "timestamp": 1638263661,
+      "reward": 33468,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13713879,
+      "timestamp": 1638262797,
+      "reward": 74070,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13713828,
+      "timestamp": 1638262024,
+      "reward": 19922,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13713782,
+      "timestamp": 1638261237,
+      "reward": 19954,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13713778,
+      "timestamp": 1638261163,
+      "reward": 17324,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13713762,
+      "timestamp": 1638260910,
+      "reward": 61971,
+      "percent": 0.00003,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13713759,
+      "timestamp": 1638260882,
+      "reward": 63524,
+      "percent": 0.000036667,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13713756,
+      "timestamp": 1638260844,
+      "reward": 27519,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13713688,
+      "timestamp": 1638259805,
+      "reward": 85123,
+      "percent": 0.000036667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13713683,
+      "timestamp": 1638259766,
+      "reward": 35895,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13713663,
+      "timestamp": 1638259481,
+      "reward": 14901,
+      "percent": 0.000006667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13713639,
+      "timestamp": 1638259142,
+      "reward": 33175,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13713604,
+      "timestamp": 1638258675,
+      "reward": 37295,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13713592,
+      "timestamp": 1638258379,
+      "reward": 33281,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13713578,
+      "timestamp": 1638258194,
+      "reward": 56239,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13713514,
+      "timestamp": 1638257300,
+      "reward": 96004,
+      "percent": 0.00004,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13713443,
+      "timestamp": 1638256387,
+      "reward": 33821,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13713417,
+      "timestamp": 1638255925,
+      "reward": 79755,
+      "percent": 0.00004,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13713388,
+      "timestamp": 1638255407,
+      "reward": 47135,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13713376,
+      "timestamp": 1638255211,
+      "reward": 79508,
+      "percent": 0.00004,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13713312,
+      "timestamp": 1638254096,
+      "reward": 44052,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13713291,
+      "timestamp": 1638253822,
+      "reward": 39917,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13713232,
+      "timestamp": 1638252908,
+      "reward": 81490,
+      "percent": 0.000033333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13713162,
+      "timestamp": 1638251798,
+      "reward": 66441,
+      "percent": 0.00003,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13713116,
+      "timestamp": 1638251229,
+      "reward": 60364,
+      "percent": 0.00003,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13713026,
+      "timestamp": 1638250034,
+      "reward": 26611,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13712948,
+      "timestamp": 1638249147,
+      "reward": 14107,
+      "percent": 0.000006667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13712947,
+      "timestamp": 1638249125,
+      "reward": 14967,
+      "percent": 0.000006667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13712942,
+      "timestamp": 1638249033,
+      "reward": 42043,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13712940,
+      "timestamp": 1638249022,
+      "reward": 47742,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13712930,
+      "timestamp": 1638248905,
+      "reward": 54669,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13712890,
+      "timestamp": 1638248328,
+      "reward": 23099,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13712799,
+      "timestamp": 1638247200,
+      "reward": 26965,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13712797,
+      "timestamp": 1638247187,
+      "reward": 26578,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13712769,
+      "timestamp": 1638246740,
+      "reward": 20327,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13712748,
+      "timestamp": 1638246501,
+      "reward": 33236,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13712723,
+      "timestamp": 1638246120,
+      "reward": 42114,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13712679,
+      "timestamp": 1638245474,
+      "reward": 13392,
+      "percent": 0.000006667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13712668,
+      "timestamp": 1638245296,
+      "reward": 46199,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13712651,
+      "timestamp": 1638245097,
+      "reward": 46199,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13712636,
+      "timestamp": 1638244844,
+      "reward": 54461,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13712546,
+      "timestamp": 1638243746,
+      "reward": 32710,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13712528,
+      "timestamp": 1638243484,
+      "reward": 40814,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13712467,
+      "timestamp": 1638242734,
+      "reward": 53232,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13712463,
+      "timestamp": 1638242664,
+      "reward": 42899,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13712460,
+      "timestamp": 1638242645,
+      "reward": 49929,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13712416,
+      "timestamp": 1638242050,
+      "reward": 67576,
+      "percent": 0.000033333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13712280,
+      "timestamp": 1638240010,
+      "reward": 34649,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13712268,
+      "timestamp": 1638239890,
+      "reward": 40487,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13712257,
+      "timestamp": 1638239712,
+      "reward": 34439,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13712246,
+      "timestamp": 1638239519,
+      "reward": 20468,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13712237,
+      "timestamp": 1638239381,
+      "reward": 35584,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13712235,
+      "timestamp": 1638239365,
+      "reward": 40088,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13712208,
+      "timestamp": 1638239093,
+      "reward": 43004,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13712180,
+      "timestamp": 1638238664,
+      "reward": 28047,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13712121,
+      "timestamp": 1638237825,
+      "reward": 33080,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13712111,
+      "timestamp": 1638237748,
+      "reward": 53962,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13712054,
+      "timestamp": 1638236731,
+      "reward": 57011,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13712031,
+      "timestamp": 1638236461,
+      "reward": 26488,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13711921,
+      "timestamp": 1638235072,
+      "reward": 42356,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13711912,
+      "timestamp": 1638234952,
+      "reward": 30307,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13711896,
+      "timestamp": 1638234748,
+      "reward": 51519,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13711895,
+      "timestamp": 1638234707,
+      "reward": 49060,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13711883,
+      "timestamp": 1638234518,
+      "reward": 33405,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13711880,
+      "timestamp": 1638234460,
+      "reward": 64954,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13711876,
+      "timestamp": 1638234359,
+      "reward": 58268,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13711861,
+      "timestamp": 1638234097,
+      "reward": 46176,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13711830,
+      "timestamp": 1638233731,
+      "reward": 40424,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13711784,
+      "timestamp": 1638232933,
+      "reward": 5774,
+      "percent": 0.000003333,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13711715,
+      "timestamp": 1638232115,
+      "reward": 74541,
+      "percent": 0.000036667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13711692,
+      "timestamp": 1638231804,
+      "reward": 43556,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13711644,
+      "timestamp": 1638231208,
+      "reward": 60928,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13711629,
+      "timestamp": 1638231033,
+      "reward": 52157,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13711589,
+      "timestamp": 1638230426,
+      "reward": 21183,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13711571,
+      "timestamp": 1638230147,
+      "reward": 63349,
+      "percent": 0.00003,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13711570,
+      "timestamp": 1638230138,
+      "reward": 49648,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13711552,
+      "timestamp": 1638229925,
+      "reward": 34926,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13711494,
+      "timestamp": 1638229199,
+      "reward": 26876,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13711473,
+      "timestamp": 1638228935,
+      "reward": 34230,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13711448,
+      "timestamp": 1638228534,
+      "reward": 46199,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13711410,
+      "timestamp": 1638227921,
+      "reward": 33223,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13711370,
+      "timestamp": 1638227352,
+      "reward": 54938,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13711351,
+      "timestamp": 1638227070,
+      "reward": 53957,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13711351,
+      "timestamp": 1638227043,
+      "reward": 24749,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13711341,
+      "timestamp": 1638226952,
+      "reward": 45131,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13711290,
+      "timestamp": 1638226274,
+      "reward": 47732,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13711285,
+      "timestamp": 1638226220,
+      "reward": 37603,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13711254,
+      "timestamp": 1638225768,
+      "reward": 28874,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13711153,
+      "timestamp": 1638224441,
+      "reward": 81008,
+      "percent": 0.000036667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13711126,
+      "timestamp": 1638224188,
+      "reward": 68377,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13711116,
+      "timestamp": 1638224028,
+      "reward": 29752,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13711105,
+      "timestamp": 1638223863,
+      "reward": 53614,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13711064,
+      "timestamp": 1638223267,
+      "reward": 26901,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13711026,
+      "timestamp": 1638222603,
+      "reward": 53049,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13711019,
+      "timestamp": 1638222511,
+      "reward": 13616,
+      "percent": 0.000006667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13710954,
+      "timestamp": 1638221542,
+      "reward": 33120,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13710874,
+      "timestamp": 1638220525,
+      "reward": 34649,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13710834,
+      "timestamp": 1638219945,
+      "reward": 83907,
+      "percent": 0.00004,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13710831,
+      "timestamp": 1638219897,
+      "reward": 113454,
+      "percent": 0.000053333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13710819,
+      "timestamp": 1638219774,
+      "reward": 45909,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13710811,
+      "timestamp": 1638219692,
+      "reward": 42198,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13710802,
+      "timestamp": 1638219601,
+      "reward": 57475,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13710733,
+      "timestamp": 1638218605,
+      "reward": 26454,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13710715,
+      "timestamp": 1638218379,
+      "reward": 52470,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13710698,
+      "timestamp": 1638218138,
+      "reward": 82931,
+      "percent": 0.00004,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13710694,
+      "timestamp": 1638218065,
+      "reward": 26609,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13710653,
+      "timestamp": 1638217512,
+      "reward": 51738,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13710634,
+      "timestamp": 1638217303,
+      "reward": 22079,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13710615,
+      "timestamp": 1638217025,
+      "reward": 73371,
+      "percent": 0.000036667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13710606,
+      "timestamp": 1638216920,
+      "reward": 30654,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13710589,
+      "timestamp": 1638216694,
+      "reward": 17324,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13710580,
+      "timestamp": 1638216561,
+      "reward": 37753,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13710517,
+      "timestamp": 1638215802,
+      "reward": 53044,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13710474,
+      "timestamp": 1638215269,
+      "reward": 26711,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13710421,
+      "timestamp": 1638214535,
+      "reward": 53932,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13710402,
+      "timestamp": 1638214295,
+      "reward": 42832,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13710342,
+      "timestamp": 1638213378,
+      "reward": 55440,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13710329,
+      "timestamp": 1638213208,
+      "reward": 59122,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13710321,
+      "timestamp": 1638213067,
+      "reward": 72297,
+      "percent": 0.000033333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13710294,
+      "timestamp": 1638212659,
+      "reward": 47914,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13710275,
+      "timestamp": 1638212326,
+      "reward": 74518,
+      "percent": 0.000036667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13710269,
+      "timestamp": 1638212279,
+      "reward": 57927,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13710263,
+      "timestamp": 1638212207,
+      "reward": 28571,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13710216,
+      "timestamp": 1638211419,
+      "reward": 39618,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13710199,
+      "timestamp": 1638211143,
+      "reward": 61907,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13710176,
+      "timestamp": 1638210913,
+      "reward": 30987,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13710177,
+      "timestamp": 1638210912,
+      "reward": 23099,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13710170,
+      "timestamp": 1638210833,
+      "reward": 60636,
+      "percent": 0.00003,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13710165,
+      "timestamp": 1638210808,
+      "reward": 42575,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13710144,
+      "timestamp": 1638210583,
+      "reward": 40662,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13710101,
+      "timestamp": 1638209971,
+      "reward": 78803,
+      "percent": 0.000033333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13710071,
+      "timestamp": 1638209629,
+      "reward": 87820,
+      "percent": 0.00004,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13710048,
+      "timestamp": 1638209349,
+      "reward": 46199,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13709993,
+      "timestamp": 1638208470,
+      "reward": 52799,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13709975,
+      "timestamp": 1638208287,
+      "reward": 45404,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13709967,
+      "timestamp": 1638208226,
+      "reward": 36967,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13709963,
+      "timestamp": 1638208149,
+      "reward": 50434,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13709949,
+      "timestamp": 1638207936,
+      "reward": 47502,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13709911,
+      "timestamp": 1638207449,
+      "reward": 19906,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13709865,
+      "timestamp": 1638206740,
+      "reward": 47649,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13709778,
+      "timestamp": 1638205543,
+      "reward": 61012,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13709774,
+      "timestamp": 1638205504,
+      "reward": 53410,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13709730,
+      "timestamp": 1638204890,
+      "reward": 42527,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13709641,
+      "timestamp": 1638203500,
+      "reward": 35040,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13709640,
+      "timestamp": 1638203493,
+      "reward": 42066,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13709625,
+      "timestamp": 1638203241,
+      "reward": 66676,
+      "percent": 0.000033333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13709541,
+      "timestamp": 1638202190,
+      "reward": 8413,
+      "percent": 0.000003333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13709475,
+      "timestamp": 1638201192,
+      "reward": 55648,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13709336,
+      "timestamp": 1638199096,
+      "reward": 41105,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13709290,
+      "timestamp": 1638198306,
+      "reward": 42301,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13709272,
+      "timestamp": 1638198058,
+      "reward": 33214,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13709222,
+      "timestamp": 1638197341,
+      "reward": 23938,
+      "percent": 0.000003333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13709206,
+      "timestamp": 1638197134,
+      "reward": 18905,
+      "percent": 0.000006667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13709205,
+      "timestamp": 1638197112,
+      "reward": 22248,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13709202,
+      "timestamp": 1638197095,
+      "reward": 19902,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13709169,
+      "timestamp": 1638196623,
+      "reward": 37231,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13709159,
+      "timestamp": 1638196508,
+      "reward": 41127,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13709154,
+      "timestamp": 1638196482,
+      "reward": 46841,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13709108,
+      "timestamp": 1638195854,
+      "reward": 53189,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13709088,
+      "timestamp": 1638195469,
+      "reward": 68234,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13709065,
+      "timestamp": 1638195196,
+      "reward": 52177,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13709054,
+      "timestamp": 1638195026,
+      "reward": 49503,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13709036,
+      "timestamp": 1638194812,
+      "reward": 26425,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13708997,
+      "timestamp": 1638194361,
+      "reward": 67129,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13708906,
+      "timestamp": 1638193102,
+      "reward": 59916,
+      "percent": 0.00003,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13708899,
+      "timestamp": 1638193018,
+      "reward": 40424,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13708868,
+      "timestamp": 1638192627,
+      "reward": 33143,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13708861,
+      "timestamp": 1638192525,
+      "reward": 74238,
+      "percent": 0.000036667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13708838,
+      "timestamp": 1638192091,
+      "reward": 40424,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13708754,
+      "timestamp": 1638190936,
+      "reward": 81374,
+      "percent": 0.00004,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13708742,
+      "timestamp": 1638190780,
+      "reward": 60102,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13708678,
+      "timestamp": 1638189957,
+      "reward": 64441,
+      "percent": 0.00003,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13708657,
+      "timestamp": 1638189688,
+      "reward": 53834,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13708632,
+      "timestamp": 1638189286,
+      "reward": 26661,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13708631,
+      "timestamp": 1638189283,
+      "reward": 27456,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13708628,
+      "timestamp": 1638189217,
+      "reward": 21470,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13708609,
+      "timestamp": 1638188997,
+      "reward": 51338,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13708602,
+      "timestamp": 1638188877,
+      "reward": 46945,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13708595,
+      "timestamp": 1638188818,
+      "reward": 28527,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13708587,
+      "timestamp": 1638188685,
+      "reward": 27480,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13708572,
+      "timestamp": 1638188333,
+      "reward": 47248,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13708565,
+      "timestamp": 1638188300,
+      "reward": 39910,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13708550,
+      "timestamp": 1638188179,
+      "reward": 90644,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13708510,
+      "timestamp": 1638187604,
+      "reward": 39888,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13708493,
+      "timestamp": 1638187269,
+      "reward": 69812,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13708478,
+      "timestamp": 1638187052,
+      "reward": 79831,
+      "percent": 0.00004,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13708454,
+      "timestamp": 1638186720,
+      "reward": 43318,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13708446,
+      "timestamp": 1638186596,
+      "reward": 36461,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13708399,
+      "timestamp": 1638185963,
+      "reward": 20716,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13707836,
+      "timestamp": 1638178767,
+      "reward": 48618,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13707809,
+      "timestamp": 1638178297,
+      "reward": 46238,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13707797,
+      "timestamp": 1638178165,
+      "reward": 74484,
+      "percent": 0.00003,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13707746,
+      "timestamp": 1638177368,
+      "reward": 13483,
+      "percent": 0.000006667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13707705,
+      "timestamp": 1638176796,
+      "reward": 27405,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13707701,
+      "timestamp": 1638176687,
+      "reward": 40762,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13707666,
+      "timestamp": 1638176252,
+      "reward": 19899,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13707633,
+      "timestamp": 1638175824,
+      "reward": 60377,
+      "percent": 0.00003,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13707614,
+      "timestamp": 1638175613,
+      "reward": 49944,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13707568,
+      "timestamp": 1638174995,
+      "reward": 70359,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13707536,
+      "timestamp": 1638174477,
+      "reward": 28309,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13707489,
+      "timestamp": 1638173780,
+      "reward": 34368,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13707473,
+      "timestamp": 1638173493,
+      "reward": 23099,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13707467,
+      "timestamp": 1638173434,
+      "reward": 34203,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13707453,
+      "timestamp": 1638173227,
+      "reward": 35784,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13707420,
+      "timestamp": 1638172790,
+      "reward": 32828,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13707408,
+      "timestamp": 1638172649,
+      "reward": 40311,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13707361,
+      "timestamp": 1638172014,
+      "reward": 40067,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13707353,
+      "timestamp": 1638171924,
+      "reward": 53498,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13707322,
+      "timestamp": 1638171434,
+      "reward": 40424,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13707306,
+      "timestamp": 1638171173,
+      "reward": 46791,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13707273,
+      "timestamp": 1638170759,
+      "reward": 86894,
+      "percent": 0.000033333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13707259,
+      "timestamp": 1638170547,
+      "reward": 53141,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13707256,
+      "timestamp": 1638170525,
+      "reward": 26898,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13707250,
+      "timestamp": 1638170439,
+      "reward": 34649,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13707199,
+      "timestamp": 1638169554,
+      "reward": 23422,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13707194,
+      "timestamp": 1638169473,
+      "reward": 37382,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13707186,
+      "timestamp": 1638169418,
+      "reward": 53089,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13707141,
+      "timestamp": 1638168733,
+      "reward": 64401,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13707083,
+      "timestamp": 1638168008,
+      "reward": 49353,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13707058,
+      "timestamp": 1638167621,
+      "reward": 71913,
+      "percent": 0.000033333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13707052,
+      "timestamp": 1638167554,
+      "reward": 26423,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13707032,
+      "timestamp": 1638167270,
+      "reward": 47298,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706995,
+      "timestamp": 1638166718,
+      "reward": 29706,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706973,
+      "timestamp": 1638166426,
+      "reward": 48973,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706971,
+      "timestamp": 1638166409,
+      "reward": 53469,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706967,
+      "timestamp": 1638166360,
+      "reward": 46332,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706925,
+      "timestamp": 1638165850,
+      "reward": 56549,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706915,
+      "timestamp": 1638165749,
+      "reward": 39806,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706898,
+      "timestamp": 1638165558,
+      "reward": 26864,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706883,
+      "timestamp": 1638165307,
+      "reward": 36023,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706882,
+      "timestamp": 1638165306,
+      "reward": 33136,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706877,
+      "timestamp": 1638165260,
+      "reward": 52819,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706825,
+      "timestamp": 1638164391,
+      "reward": 14643,
+      "percent": 0.000006667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706796,
+      "timestamp": 1638163977,
+      "reward": 53695,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706795,
+      "timestamp": 1638163972,
+      "reward": 55997,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706763,
+      "timestamp": 1638163422,
+      "reward": 34196,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706739,
+      "timestamp": 1638163153,
+      "reward": 37301,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706738,
+      "timestamp": 1638163121,
+      "reward": 33183,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706734,
+      "timestamp": 1638163035,
+      "reward": 23395,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706698,
+      "timestamp": 1638162607,
+      "reward": 56734,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706677,
+      "timestamp": 1638162267,
+      "reward": 41480,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706649,
+      "timestamp": 1638161779,
+      "reward": 41102,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706557,
+      "timestamp": 1638160567,
+      "reward": 41909,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706483,
+      "timestamp": 1638159463,
+      "reward": 19504,
+      "percent": 0.000006667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706456,
+      "timestamp": 1638159014,
+      "reward": 42978,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706450,
+      "timestamp": 1638158915,
+      "reward": 43073,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706441,
+      "timestamp": 1638158826,
+      "reward": 57742,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706426,
+      "timestamp": 1638158473,
+      "reward": 54028,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706417,
+      "timestamp": 1638158390,
+      "reward": 66547,
+      "percent": 0.000033333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706407,
+      "timestamp": 1638158238,
+      "reward": 48062,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706394,
+      "timestamp": 1638158067,
+      "reward": 35262,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706379,
+      "timestamp": 1638157846,
+      "reward": 13305,
+      "percent": 0.000006667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706373,
+      "timestamp": 1638157824,
+      "reward": 26399,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706367,
+      "timestamp": 1638157770,
+      "reward": 40424,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13706337,
+      "timestamp": 1638157388,
+      "reward": 57749,
+      "percent": 0.000033333,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13706310,
+      "timestamp": 1638156990,
+      "reward": 46696,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706293,
+      "timestamp": 1638156676,
+      "reward": 44340,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706282,
+      "timestamp": 1638156486,
+      "reward": 34794,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706267,
+      "timestamp": 1638156221,
+      "reward": 69871,
+      "percent": 0.000033333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706234,
+      "timestamp": 1638155753,
+      "reward": 26538,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706220,
+      "timestamp": 1638155621,
+      "reward": 47273,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706209,
+      "timestamp": 1638155496,
+      "reward": 43373,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706202,
+      "timestamp": 1638155388,
+      "reward": 71114,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706190,
+      "timestamp": 1638155159,
+      "reward": 26678,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706183,
+      "timestamp": 1638155107,
+      "reward": 13553,
+      "percent": 0.000006667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706155,
+      "timestamp": 1638154730,
+      "reward": 34225,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706024,
+      "timestamp": 1638152914,
+      "reward": 27763,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13706012,
+      "timestamp": 1638152723,
+      "reward": 24749,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13705979,
+      "timestamp": 1638152347,
+      "reward": 60183,
+      "percent": 0.00003,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13705876,
+      "timestamp": 1638150798,
+      "reward": 34472,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13705861,
+      "timestamp": 1638150649,
+      "reward": 34649,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13705853,
+      "timestamp": 1638150574,
+      "reward": 66589,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13705822,
+      "timestamp": 1638150158,
+      "reward": 50256,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13705772,
+      "timestamp": 1638149257,
+      "reward": 60975,
+      "percent": 0.00003,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13705743,
+      "timestamp": 1638148809,
+      "reward": 47157,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13705695,
+      "timestamp": 1638148205,
+      "reward": 53464,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13705694,
+      "timestamp": 1638148204,
+      "reward": 56827,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13705672,
+      "timestamp": 1638147949,
+      "reward": 67570,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13705669,
+      "timestamp": 1638147910,
+      "reward": 44721,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13705648,
+      "timestamp": 1638147614,
+      "reward": 40424,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13705635,
+      "timestamp": 1638147452,
+      "reward": 61763,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13705631,
+      "timestamp": 1638147405,
+      "reward": 43019,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13705592,
+      "timestamp": 1638146910,
+      "reward": 27774,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13705560,
+      "timestamp": 1638146495,
+      "reward": 27848,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13705499,
+      "timestamp": 1638145575,
+      "reward": 13893,
+      "percent": 0.000006667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13705489,
+      "timestamp": 1638145487,
+      "reward": 20148,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13705475,
+      "timestamp": 1638145288,
+      "reward": 66581,
+      "percent": 0.000033333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13705458,
+      "timestamp": 1638145088,
+      "reward": 24067,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13705450,
+      "timestamp": 1638144894,
+      "reward": 33556,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13705428,
+      "timestamp": 1638144640,
+      "reward": 28434,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13705392,
+      "timestamp": 1638144158,
+      "reward": 61155,
+      "percent": 0.00003,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13705356,
+      "timestamp": 1638143652,
+      "reward": 19924,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13705351,
+      "timestamp": 1638143594,
+      "reward": 73054,
+      "percent": 0.000036667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13705309,
+      "timestamp": 1638142983,
+      "reward": 57825,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13705278,
+      "timestamp": 1638142589,
+      "reward": 31532,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13705251,
+      "timestamp": 1638142310,
+      "reward": 30304,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13705218,
+      "timestamp": 1638141915,
+      "reward": 56714,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13705001,
+      "timestamp": 1638138559,
+      "reward": 44723,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704969,
+      "timestamp": 1638138209,
+      "reward": 17740,
+      "percent": 0.000006667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704864,
+      "timestamp": 1638136760,
+      "reward": 58987,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704857,
+      "timestamp": 1638136688,
+      "reward": 28874,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13704835,
+      "timestamp": 1638136417,
+      "reward": 68870,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704827,
+      "timestamp": 1638136367,
+      "reward": 52799,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704807,
+      "timestamp": 1638136157,
+      "reward": 43343,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704778,
+      "timestamp": 1638135672,
+      "reward": 28874,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13704758,
+      "timestamp": 1638135386,
+      "reward": 46304,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704751,
+      "timestamp": 1638135234,
+      "reward": 64548,
+      "percent": 0.00003,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704741,
+      "timestamp": 1638135126,
+      "reward": 62634,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704722,
+      "timestamp": 1638134873,
+      "reward": 82391,
+      "percent": 0.00004,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704664,
+      "timestamp": 1638133949,
+      "reward": 62962,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704638,
+      "timestamp": 1638133540,
+      "reward": 72909,
+      "percent": 0.000036667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704630,
+      "timestamp": 1638133466,
+      "reward": 59200,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704587,
+      "timestamp": 1638132779,
+      "reward": 40087,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704575,
+      "timestamp": 1638132568,
+      "reward": 47998,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704573,
+      "timestamp": 1638132517,
+      "reward": 42528,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704558,
+      "timestamp": 1638132264,
+      "reward": 37794,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704546,
+      "timestamp": 1638132146,
+      "reward": 33389,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704507,
+      "timestamp": 1638131540,
+      "reward": 20634,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704471,
+      "timestamp": 1638131117,
+      "reward": 52808,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704431,
+      "timestamp": 1638130623,
+      "reward": 74981,
+      "percent": 0.000036667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704429,
+      "timestamp": 1638130563,
+      "reward": 54586,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704416,
+      "timestamp": 1638130425,
+      "reward": 65999,
+      "percent": 0.000033333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704377,
+      "timestamp": 1638129925,
+      "reward": 55424,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704374,
+      "timestamp": 1638129880,
+      "reward": 73714,
+      "percent": 0.000033333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704371,
+      "timestamp": 1638129854,
+      "reward": 63305,
+      "percent": 0.00003,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704331,
+      "timestamp": 1638129420,
+      "reward": 31209,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704326,
+      "timestamp": 1638129312,
+      "reward": 20440,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704292,
+      "timestamp": 1638128800,
+      "reward": 61952,
+      "percent": 0.00003,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704274,
+      "timestamp": 1638128497,
+      "reward": 46252,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704261,
+      "timestamp": 1638128295,
+      "reward": 48043,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704210,
+      "timestamp": 1638127572,
+      "reward": 35126,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704206,
+      "timestamp": 1638127533,
+      "reward": 47092,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704189,
+      "timestamp": 1638127360,
+      "reward": 67432,
+      "percent": 0.00003,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704171,
+      "timestamp": 1638127137,
+      "reward": 20200,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704166,
+      "timestamp": 1638127058,
+      "reward": 36537,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704116,
+      "timestamp": 1638126319,
+      "reward": 13289,
+      "percent": 0.000006667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704093,
+      "timestamp": 1638126010,
+      "reward": 29410,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704090,
+      "timestamp": 1638125943,
+      "reward": 41522,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704064,
+      "timestamp": 1638125619,
+      "reward": 29727,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704063,
+      "timestamp": 1638125600,
+      "reward": 39691,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704033,
+      "timestamp": 1638125151,
+      "reward": 39599,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13704024,
+      "timestamp": 1638125051,
+      "reward": 47326,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13703980,
+      "timestamp": 1638124529,
+      "reward": 42363,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13703902,
+      "timestamp": 1638123275,
+      "reward": 7295,
+      "percent": 0.000003333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13703896,
+      "timestamp": 1638123237,
+      "reward": 26976,
+      "percent": 0.000006667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13703874,
+      "timestamp": 1638122996,
+      "reward": 41186,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13703846,
+      "timestamp": 1638122644,
+      "reward": 58723,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13703829,
+      "timestamp": 1638122346,
+      "reward": 70715,
+      "percent": 0.000033333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13703760,
+      "timestamp": 1638121367,
+      "reward": 26901,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13703683,
+      "timestamp": 1638120389,
+      "reward": 27461,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13703618,
+      "timestamp": 1638119551,
+      "reward": 73278,
+      "percent": 0.000033333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13703619,
+      "timestamp": 1638119551,
+      "reward": 57749,
+      "percent": 0.000033333,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13703595,
+      "timestamp": 1638119201,
+      "reward": 62989,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13703490,
+      "timestamp": 1638117809,
+      "reward": 36289,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13703454,
+      "timestamp": 1638117343,
+      "reward": 46199,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13703403,
+      "timestamp": 1638116558,
+      "reward": 46313,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13703398,
+      "timestamp": 1638116419,
+      "reward": 41958,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13703368,
+      "timestamp": 1638116056,
+      "reward": 35952,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13703182,
+      "timestamp": 1638113311,
+      "reward": 41872,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13703145,
+      "timestamp": 1638112690,
+      "reward": 40348,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13703134,
+      "timestamp": 1638112581,
+      "reward": 27750,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13703118,
+      "timestamp": 1638112435,
+      "reward": 47595,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13703107,
+      "timestamp": 1638112277,
+      "reward": 66069,
+      "percent": 0.000033333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13703097,
+      "timestamp": 1638112166,
+      "reward": 65290,
+      "percent": 0.00003,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13703075,
+      "timestamp": 1638111866,
+      "reward": 39814,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13703007,
+      "timestamp": 1638110976,
+      "reward": 50410,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13703004,
+      "timestamp": 1638110885,
+      "reward": 20640,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13702971,
+      "timestamp": 1638110541,
+      "reward": 21042,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13702928,
+      "timestamp": 1638110062,
+      "reward": 82948,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13702897,
+      "timestamp": 1638109615,
+      "reward": 49755,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13702886,
+      "timestamp": 1638109492,
+      "reward": 77122,
+      "percent": 0.000036667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13702884,
+      "timestamp": 1638109472,
+      "reward": 70512,
+      "percent": 0.000033333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13702851,
+      "timestamp": 1638108933,
+      "reward": 33657,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13702831,
+      "timestamp": 1638108652,
+      "reward": 40257,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13702802,
+      "timestamp": 1638108276,
+      "reward": 34649,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": true
+    },
+    {
+      "blockheight": 13702749,
+      "timestamp": 1638107536,
+      "reward": 37821,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13702736,
+      "timestamp": 1638107405,
+      "reward": 35458,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13702719,
+      "timestamp": 1638107200,
+      "reward": 91074,
+      "percent": 0.00003,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13702718,
+      "timestamp": 1638107181,
+      "reward": 48121,
+      "percent": 0.000023333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13702711,
+      "timestamp": 1638107091,
+      "reward": 69548,
+      "percent": 0.000033333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13702670,
+      "timestamp": 1638106528,
+      "reward": 36194,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13702591,
+      "timestamp": 1638105256,
+      "reward": 40681,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13702576,
+      "timestamp": 1638105050,
+      "reward": 46624,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13702511,
+      "timestamp": 1638104155,
+      "reward": 34058,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13702488,
+      "timestamp": 1638103913,
+      "reward": 42372,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13702478,
+      "timestamp": 1638103803,
+      "reward": 22021,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13702449,
+      "timestamp": 1638103504,
+      "reward": 77118,
+      "percent": 0.000036667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13702429,
+      "timestamp": 1638103212,
+      "reward": 53459,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13702427,
+      "timestamp": 1638103193,
+      "reward": 26968,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13702398,
+      "timestamp": 1638102880,
+      "reward": 67888,
+      "percent": 0.00003,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13702397,
+      "timestamp": 1638102837,
+      "reward": 43148,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13702357,
+      "timestamp": 1638102109,
+      "reward": 65999,
+      "percent": 0.000033333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13702350,
+      "timestamp": 1638102012,
+      "reward": 20453,
+      "percent": 0.00001,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13702305,
+      "timestamp": 1638101466,
+      "reward": 33602,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13702295,
+      "timestamp": 1638101309,
+      "reward": 56864,
+      "percent": 0.000026667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13702287,
+      "timestamp": 1638101196,
+      "reward": 26678,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13702274,
+      "timestamp": 1638101023,
+      "reward": 76111,
+      "percent": 0.000036667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13702251,
+      "timestamp": 1638100675,
+      "reward": 27872,
+      "percent": 0.000013333,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13702237,
+      "timestamp": 1638100450,
+      "reward": 71681,
+      "percent": 0.000016667,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13702204,
+      "timestamp": 1638100087,
+      "reward": 40917,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    },
+    {
+      "blockheight": 13702198,
+      "timestamp": 1638099952,
+      "reward": 39971,
+      "percent": 0.00002,
+      "immature": false,
+      "orphan": false,
+      "uncle": false
+    }
+  ],
+  "roundShares": 5,
+  "sharesInvalid": 0,
+  "sharesStale": 0,
+  "sharesValid": 1144,
+  "stats": {
+    "balance": 18409822,
+    "blocksFound": 1,
+    "immature": 126710,
+    "lastShare": 1638359043,
+    "paid": 235293019,
+    "pending": 0
+  },
+  "sumrewards": [
+    {
+      "inverval": 3600,
+      "reward": 346246,
+      "numreward": 8,
+      "name": "Last 60 minutes",
+      "offset": 0
+    },
+    {
+      "inverval": 43200,
+      "reward": 4003113,
+      "numreward": 88,
+      "name": "Last 12 hours",
+      "offset": 0
+    },
+    {
+      "inverval": 86400,
+      "reward": 9248330,
+      "numreward": 199,
+      "name": "Last 24 hours",
+      "offset": 0
+    },
+    {
+      "inverval": 604800,
+      "reward": 66217065,
+      "numreward": 1468,
+      "name": "Last 7 days",
+      "offset": 0
+    },
+    {
+      "inverval": 2592000,
+      "reward": 249875243,
+      "numreward": 6631,
+      "name": "Last 30 days",
+      "offset": 0
+    }
+  ],
+  "updatedAt": 1638359048651,
+  "workers": {
+    "sunforceone": {
+      "lastBeat": 1638359043,
+      "hr": 455705877,
+      "offline": false,
+      "hr2": 495701340,
+      "rhr": 672223663,
+      "sharesValid": 1144,
+      "sharesInvalid": 0,
+      "sharesStale": 0
+    }
+  },
+  "workersOffline": 0,
+  "workersOnline": 1,
+  "workersTotal": 1
+}

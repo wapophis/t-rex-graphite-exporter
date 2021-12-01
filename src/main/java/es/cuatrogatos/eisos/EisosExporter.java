@@ -21,6 +21,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class EisosExporter {
+    Logger logger=Logger.getLogger("EISOS-EXPORTER");
 
     private BigDecimal pricePerMwH;
     private BigDecimal pricePerKwH;
@@ -55,6 +56,8 @@ public class EisosExporter {
 
 
     public void export(String hostName,int port,boolean dryRun){
+        logger.warning("STARTING THE EXPORT ROUTINE");
+
         /// START PUSHING
                 final Graphite graphite = new Graphite(new InetSocketAddress(hostName, port));
                 final GraphiteReporter remoteReporter = GraphiteReporter.forRegistry(metricRegistry)
@@ -66,6 +69,8 @@ public class EisosExporter {
                 long initialDelay=(((new Date().getTime()+exportInterval)/exportInterval)*exportInterval)-new Date().getTime();
         if(!dryRun){
             remoteReporter.start(initialDelay,exportInterval, TimeUnit.MILLISECONDS);
+            logger.warning("DRYRUN IN FALSE, REPORTING...");
+
         }
 
     }

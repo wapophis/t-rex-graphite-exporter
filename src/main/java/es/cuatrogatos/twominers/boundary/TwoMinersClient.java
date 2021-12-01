@@ -8,6 +8,7 @@ import java.util.Date;
 import java.util.logging.Logger;
 
 public class TwoMinersClient {
+    private static Logger  logger=Logger.getLogger("TwoMinersClient");
 
     private static long cacheTtl=1000L;
     private static long lastUpdatedCache=0L;
@@ -35,12 +36,15 @@ public class TwoMinersClient {
     }
 
     private static synchronized Account retrieveAccount(String uri,String account){
+      //  logger.info("retrieveAccount at"+uri+" "+account);
 
-        if(myAccount==null || lastUpdatedCache+cacheTtl>=new Date().getTime()){
-            Logger.getLogger("TWOMINERS-CLIENT: Retrieving data from twominers api");
+        if(myAccount==null || lastUpdatedCache+cacheTtl<=new Date().getTime()){
+            logger.info("GETTTING FROM API");
             myAccount= new JsonClient().http().get(uri + "/api/accounts/" + account).object(Account.class);
+            logger.info("DATA RETURNED "+myAccount.getCurrentHashrate());
             lastUpdatedCache=new Date().getTime();
         }
+
         return myAccount;
     }
 

@@ -9,8 +9,10 @@ import es.cuatrogatos.coinbase.entity.metrics.ExchangeMetrics;
 import java.net.InetSocketAddress;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
+import java.util.logging.Logger;
 
 public class CoinBaseExporter {
+    Logger logger=Logger.getLogger("COINBASE-EXPORTER");
 
     private long exportInterval=-1;
 
@@ -48,6 +50,8 @@ public class CoinBaseExporter {
             @Override
             public void run() {
                 /// START PUSHING
+                logger.warning("STARTING THE EXPORT ROUTINE");
+
                 final Graphite graphite = new Graphite(new InetSocketAddress(hostName, port));
                 final GraphiteReporter remoteReporter = GraphiteReporter.forRegistry(metricRegistry)
                         .prefixedWith("coinbase.")
@@ -56,6 +60,8 @@ public class CoinBaseExporter {
                         .filter(MetricFilter.ALL)
                         .build(graphite);
                 remoteReporter.start(exportInterval, TimeUnit.MILLISECONDS);
+                logger.warning("DRYRUN NOT DEFINED REPORTING....");
+
             }
         });
     }

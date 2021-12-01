@@ -27,7 +27,12 @@ public class AccountMetrics {
         return new Gauge<Long>() {
             @Override
             public Long getValue() {
+                try{
                 return TwoMinersClient.getStats(poolUrl,poolUser).getBalance();
+                }catch (Exception e){
+                    e.printStackTrace();
+                    return null;
+                }
                 //return account.getStats().getBalance();
             }
         };
@@ -37,16 +42,26 @@ public class AccountMetrics {
         return new Gauge<Double>() {
             @Override
             public Double getValue() {
+                try{
                 return ((double) TwoMinersClient.getStats(poolUrl,poolUser).getBalance() /1000000000)*(1/CoinBaseClient.getExchangeRate("EUR","ETH"));
+                }catch (Exception e){
+                    e.printStackTrace();
+                    return null;
+                }
             }
         };
     }
 
     public Gauge<Long> getUnConfirmedBalance(){
-        return new Gauge<Long>() {
+        return new Gauge<Long>(){
             @Override
             public Long getValue() {
-                return TwoMinersClient.getStats(poolUrl,poolUser).getImmature();
+                try {
+                    return TwoMinersClient.getStats(poolUrl, poolUser).getImmature();
+                }catch (Exception e){
+                    e.printStackTrace();
+                    return null;
+                }
               //  return account.getStats().getImmature();
             }
         };
@@ -57,7 +72,12 @@ public class AccountMetrics {
         return new Gauge<Long>() {
             @Override
             public Long getValue() {
+                try{
                 return TwoMinersClient.getStats(poolUrl,poolUser).getPaid();
+                }catch (Exception e){
+                    e.printStackTrace();
+                    return null;
+                }
                // return account.getStats().getPaid();
             }
         };
@@ -68,8 +88,13 @@ public class AccountMetrics {
         return new Gauge<Long>() {
             @Override
             public Long getValue() {
+                try{
                 return TwoMinersClient.getStats(poolUrl,poolUser).getPending();
                // return account.getStats().getPending();
+                }catch (Exception e){
+                    e.printStackTrace();
+                    return null;
+                }
             }
         };
     }
@@ -78,16 +103,27 @@ public class AccountMetrics {
         return new Gauge<Double>() {
             @Override
             public Double getValue() {
+                try{
                 return TwoMinersClient.getStats(poolUrl,poolUser).getPending()*(1/CoinBaseClient.getExchangeRate("EUR","ETH"));
+                }catch (Exception e){
+                    e.printStackTrace();
+                    return null;
+                }
             }
         };
     }
 
     public Gauge<Long> getHashRate(){
         return new Gauge<Long>() {
+
             @Override
             public Long getValue() {
+                try{
                 return TwoMinersClient.getAccount(poolUrl,poolUser).getHashrate();
+                }catch (Exception e){
+                    e.printStackTrace();
+                    return null;
+                }
             }
         };
     }
@@ -96,7 +132,12 @@ public class AccountMetrics {
         return new Gauge<Long>() {
             @Override
             public Long getValue() {
+                try{
                 return TwoMinersClient.getAccount(poolUrl,poolUser).getCurrentHashrate();
+                }catch (Exception e){
+                    e.printStackTrace();
+                    return null;
+                }
             }
         };
     }
@@ -105,7 +146,12 @@ public class AccountMetrics {
         return new Gauge<Double>() {
             @Override
             public Double getValue() {
+                try{
                 return TwoMinersClient.getAccount(poolUrl,poolUser).getCurrentLuck();
+                }catch (Exception e){
+                    e.printStackTrace();
+                    return null;
+                }
             }
         };
     }
@@ -114,7 +160,12 @@ public class AccountMetrics {
         return new Gauge<Long>() {
             @Override
             public Long getValue() {
+                try{
                 return TwoMinersClient.getAccount(poolUrl,poolUser).getWorkersOffline();
+                }catch (Exception e){
+                    e.printStackTrace();
+                    return null;
+                }
             }
         };
     }
@@ -123,7 +174,12 @@ public class AccountMetrics {
         return new Gauge<Long>() {
             @Override
             public Long getValue() {
+                try{
                 return TwoMinersClient.getAccount(poolUrl,poolUser).getWorkersOnline();
+                }catch (Exception e){
+                    e.printStackTrace();
+                    return null;
+                }
             }
         };
     }
@@ -141,7 +197,13 @@ public class AccountMetrics {
         return new Gauge<Long>() {
             @Override
             public Long getValue() {
+
+                try{
                 return TwoMinersClient.getAccount(poolUrl,poolUser).getSharesStale();
+                }catch (Exception e){
+                    e.printStackTrace();
+                    return null;
+                }
             }
         };
     }
@@ -150,7 +212,12 @@ public class AccountMetrics {
         return new Gauge<Long>() {
             @Override
             public Long getValue() {
+                try{
                 return TwoMinersClient.getAccount(poolUrl,poolUser).getSharesInvalid();
+                }catch (Exception e){
+                    e.printStackTrace();
+                    return null;
+                }
             }
         };
     }
@@ -159,7 +226,12 @@ public class AccountMetrics {
         return new Gauge<Long>() {
             @Override
             public Long getValue() {
+                try{
                 return TwoMinersClient.getAccount(poolUrl,poolUser).getSharesValid();
+                }catch (Exception e){
+                    e.printStackTrace();
+                    return null;
+                }
             }
         };
     }
@@ -168,7 +240,12 @@ public class AccountMetrics {
         return new Gauge<Long>() {
             @Override
             public Long getValue() {
+                try{
                 return TwoMinersClient.getAccount(poolUrl,poolUser).getRoundShares();
+                }catch (Exception e){
+                    e.printStackTrace();
+                    return null;
+                }
             }
         };
     }
@@ -178,7 +255,12 @@ public class AccountMetrics {
         return new Gauge<Long>() {
             @Override
             public Long getValue() {
+                try{
                 return TwoMinersClient.isPoolConnected(poolUrl,poolUser);
+                }catch (Exception e){
+                    e.printStackTrace();
+                    return null;
+                }
             }
         };
     }
@@ -188,12 +270,17 @@ public class AccountMetrics {
         return new Gauge<Long>() {
             @Override
             public Long getValue() {
+                try{
                 return TwoMinersClient.getAccount(poolUrl,poolUser).getSumrewards().parallelStream().filter(new Predicate<SumRewards>() {
                     @Override
                     public boolean test(SumRewards sumRewards) {
                         return sumRewards.getInverval()==interval;
                     }
                 }).findFirst().get().getReward();
+                }catch (Exception e){
+                    e.printStackTrace();
+                    return null;
+                }
             }
         };
     }
@@ -213,6 +300,7 @@ public class AccountMetrics {
 
             @Override
             public Long getValue() {
+                try{
                 TwoMinersClient.getAccount(poolUrl,poolUser).getRewards().forEach(new Consumer<Reward>() {
                     @Override
                     public void accept(Reward reward) {
@@ -222,7 +310,12 @@ public class AccountMetrics {
                     }
                 });
             return oVal;
+                }catch (Exception e){
+                    e.printStackTrace();
+                    return null;
+                }
             };
+
         };
     }
 
@@ -235,6 +328,7 @@ public class AccountMetrics {
         return new Gauge<Long>() {
             @Override
             public Long getValue() {
+                try{
                 ArrayList<Reward> copyOf=new ArrayList<>();
                 copyOf.addAll(TwoMinersClient.getAccount(poolUrl,poolUser).getRewards());
                 copyOf.sort(new Comparator<Reward>() {
@@ -243,7 +337,11 @@ public class AccountMetrics {
                         return Long.compare(reward.getTimestamp(),t1.getReward());
                     }
                 });
-                return copyOf.get(copyOf.size()).getPercent();
+                return copyOf.get(copyOf.size()-1).getPercent();
+                }catch (Exception e){
+                    e.printStackTrace();
+                    return null;
+                }
             }
         };
 
@@ -258,6 +356,7 @@ public class AccountMetrics {
         return new Gauge<Long>() {
             @Override
             public Long getValue() {
+                try{
                 ArrayList<Reward> copyOf=new ArrayList<>();
                 copyOf.addAll(TwoMinersClient.getAccount(poolUrl,poolUser).getRewards());
                 copyOf.sort(new Comparator<Reward>() {
@@ -267,6 +366,10 @@ public class AccountMetrics {
                     }
                 });
                 return copyOf.get(copyOf.size()).getReward();
+                }catch (Exception e){
+                    e.printStackTrace();
+                    return null;
+                }
             }
         };
 
@@ -276,8 +379,13 @@ public class AccountMetrics {
         return new Gauge<Double>() {
             @Override
             public Double getValue() {
-                 //return (baseCapital-getPayedValueInEur().getValue())/( ((Double.valueOf(getSumReward(86400L).getValue().toString())/1000000000)*(1/CoinBaseClient.getExchangeRate("EUR","ETH")))
-                return (baseCapital-getPayedValueInEur().getValue())/( (getSumDayRewardAt(new Date(((new Date().getTime()/(24*60*60*1000))*(24*60*60*1000))-1))).getValue()/1000000000)*(1/CoinBaseClient.getExchangeRate("EUR","ETH"));
+                try{
+                 return (baseCapital-getPayedValueInEur().getValue())/( ((Double.valueOf(getSumReward(86400L).getValue().toString())/1000000000)*(1/CoinBaseClient.getExchangeRate("EUR","ETH"))));
+                // V2 return (baseCapital-getPayedValueInEur().getValue())/( (getSumDayRewardAt(new Date(((new Date().getTime()/(24*60*60*1000))*(24*60*60*1000))-1))).getValue()/1000000000)*(1/CoinBaseClient.getExchangeRate("EUR","ETH"));
+                }catch (Exception e){
+                    e.printStackTrace();
+                    return null;
+                }
             }
         };
     }
@@ -287,6 +395,7 @@ public class AccountMetrics {
         return new Gauge<Double>() {
             @Override
             public Double getValue() {
+                try{
                 SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd");
                 Double valuePayed=new Double(0.0);
                 // EACH PAYMENT IN BTC IS CALCULATED TO THE SPOT PRICE OF THAT DAY
@@ -301,6 +410,10 @@ public class AccountMetrics {
                     valuePayed+=((Double.valueOf(amount.toString())/1000000000)*eth2btc)*btcInEur;
                 }
                 return valuePayed;
+                }catch (Exception e){
+                    e.printStackTrace();
+                    return null;
+                }
             }
         };
     }
@@ -310,10 +423,15 @@ public class AccountMetrics {
         return new Gauge<Long>() {
             @Override
             public Long getValue() {
+                try{
                 if(TwoMinersClient.getAccount(poolUrl,poolUser)==null || TwoMinersClient.getAccount(poolUrl,poolUser).getStats()==null){
                     return 1L;
                 }
                 return 0L;
+                }catch (Exception e){
+                    e.printStackTrace();
+                    return null;
+                }
             }
         };
     }

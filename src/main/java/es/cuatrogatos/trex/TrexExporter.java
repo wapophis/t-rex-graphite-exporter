@@ -12,8 +12,10 @@ import java.net.InetSocketAddress;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 import java.util.function.Consumer;
+import java.util.logging.Logger;
 
 public class TrexExporter {
+    Logger logger=Logger.getLogger("TREX-EXPORTER");
 
     private boolean metricsInitialized=false;
     private long exportInterval=-1;
@@ -71,6 +73,7 @@ public class TrexExporter {
 
     public void export(String hostname,int port,boolean dryRun){
 
+        logger.warning("STARTING THE EXPORT ROUTINE TO SERVER "+hostname+":"+port);
         final Graphite graphite = new Graphite(new InetSocketAddress(hostname, port));
         final GraphiteReporter remoteReporter = GraphiteReporter.forRegistry(metricRegistry)
                 .prefixedWith(summaryMetrics.getWorker())
@@ -79,8 +82,10 @@ public class TrexExporter {
                 .filter(MetricFilter.ALL)
                 .build(graphite);
         long initialDelay=(((new Date().getTime()+exportInterval)/exportInterval)*exportInterval)-new Date().getTime();
+
         if(!dryRun){
             remoteReporter.start(initialDelay,exportInterval, TimeUnit.MILLISECONDS);
+            logger.warning("DRYRUN IN FALSE, REPORTING...");
         }
 
     }

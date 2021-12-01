@@ -49,7 +49,7 @@ public class Exporter {
 
 
     // TREX
-    private static long trexPollTime=0L;
+    private static long trexPollTime=5000L;
     private static String trexApiUrl=null;
 
     // GRAPHITE CARBON

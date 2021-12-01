@@ -7,7 +7,7 @@ import java.util.Date;
 import java.util.logging.Logger;
 
 public class TrexClient {
-
+    private static Logger  logger=Logger.getLogger("TREXCLIENT");
     private static String trexApiUrl;
     private static long cachedTttl;
 
@@ -15,6 +15,7 @@ public class TrexClient {
     private static long lastUpdatedCached;
 
     public static Summary getSummary(){
+     //   logger.info("getSummary");
         return retrieveCachedSummary();
     }
     public static String getWorkerName(){
@@ -37,9 +38,8 @@ public class TrexClient {
 
 
     private static synchronized Summary retrieveCachedSummary(){
-
-        if(cachedSummary==null || lastUpdatedCached+cachedTttl>=new Date().getTime()){
-            Logger.getLogger("TREX-CLIENT: Retrieving data from trex");
+       // logger.info("retrieveCachedSummary");
+        if(cachedSummary==null || lastUpdatedCached+cachedTttl<=new Date().getTime()){
             cachedSummary=new JsonClient().http().get(trexApiUrl + "/summary").object(Summary.class);
             lastUpdatedCached=new Date().getTime();
         }
