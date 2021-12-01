@@ -64,6 +64,14 @@ public class TrexExporter {
             metricRegistry.register("trex.running",summaryMetrics.isMinerRunning());
             metricRegistry.register("trex.stopped",summaryMetrics.isMinerStopped());
 
+            // ACTIVEPOOL
+            metricRegistry.register("trex.active_pool.retries",summaryMetrics.getConnectionLostRetries());
+            metricRegistry.register("trex.active_pool.difficulty",summaryMetrics.getDifficulty());
+
+            // NETWORK DATA
+            //metricRegistry.register("trex.network.difficulty",summaryMetrics.getNetWorkDifficulty());
+
+
             metricsInitialized=true;
 
         }

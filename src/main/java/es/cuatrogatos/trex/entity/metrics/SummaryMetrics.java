@@ -1,9 +1,7 @@
 package es.cuatrogatos.trex.entity.metrics;
 
-import com.codahale.metrics.Counter;
 import com.codahale.metrics.Gauge;
 import es.cuatrogatos.trex.boundary.TrexClient;
-import es.cuatrogatos.trex.entity.Summary;
 
 import java.util.logging.Logger;
 
@@ -158,10 +156,30 @@ public class SummaryMetrics {
         };
     }
 
+    public Gauge<Integer> getConnectionLostRetries(){
+        return new Gauge<Integer>() {
+            @Override
+            public Integer getValue() {
+                return (Integer) TrexClient.getSummary().getActive_pool().get("retries");
+            }
+        };
+    }
+
 
 
     public String getWorker(){
         logger.warning("GETWORKER");
         return TrexClient.getSummary().getActive_pool().get("worker").toString();
     }
+
+    public Gauge<Integer> getDifficulty() {
+        return new Gauge<Integer>() {
+            @Override
+            public Integer getValue() {
+                return (Integer) TrexClient.getSummary().getActive_pool().get("difficulty");
+            }
+        };
+    }
+
+
 }
