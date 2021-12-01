@@ -66,10 +66,15 @@ public class TrexExporter {
 
             // ACTIVEPOOL
             metricRegistry.register("trex.active_pool.retries",summaryMetrics.getConnectionLostRetries());
-            metricRegistry.register("trex.active_pool.difficulty",summaryMetrics.getDifficulty());
+
+            //metricRegistry.register("trex.active_pool.difficulty",summaryMetrics.getDifficulty());
 
             // NETWORK DATA
             //metricRegistry.register("trex.network.difficulty",summaryMetrics.getNetWorkDifficulty());
+
+            // PERFORMANCE MINER RATES
+            metricRegistry.register("trex.sharerate",summaryMetrics.getShareRate());
+            metricRegistry.register("trex.sharerate_avg",summaryMetrics.getAverageShareRate());
 
 
             metricsInitialized=true;

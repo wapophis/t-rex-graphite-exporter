@@ -24,8 +24,8 @@ public class Summary {
     private boolean paused;
     private int rejected_count;
     private String revision;
-    private long sharerate;
-    private long sharerate_average;
+    private float sharerate;
+    private float sharerate_average;
     private int solved_count;
     private int success;
     private long time;
@@ -196,19 +196,19 @@ public class Summary {
         this.revision = revision;
     }
 
-    public long getSharerate() {
+    public float getSharerate() {
         return sharerate;
     }
 
-    public void setSharerate(long sharerate) {
+    public void setSharerate(float sharerate) {
         this.sharerate = sharerate;
     }
 
-    public long getSharerate_average() {
+    public float getSharerate_average() {
         return sharerate_average;
     }
 
-    public void setSharerate_average(long sharerate_average) {
+    public void setSharerate_average(float sharerate_average) {
         this.sharerate_average = sharerate_average;
     }
 

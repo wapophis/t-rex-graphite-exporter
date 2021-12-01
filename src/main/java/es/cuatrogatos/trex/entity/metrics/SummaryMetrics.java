@@ -172,14 +172,54 @@ public class SummaryMetrics {
         return TrexClient.getSummary().getActive_pool().get("worker").toString();
     }
 
+    // Current pool difficulty
     public Gauge<Integer> getDifficulty() {
         return new Gauge<Integer>() {
             @Override
             public Integer getValue() {
-                return (Integer) TrexClient.getSummary().getActive_pool().get("difficulty");
+                try {
+                    //"difficulty":"8.73 G"
+                    return (Integer) TrexClient.getSummary().getActive_pool().get("difficulty");
+                }catch (Exception e){
+                    e.printStackTrace();
+                    return null;
+                }
             }
         };
     }
 
 
+    public Gauge<Float> getShareRate() {
+        return new Gauge<Float>() {
+            @Override
+            public Float getValue() {
+                try {
+                    //"difficulty":"8.73 G"
+                    return (Float) TrexClient.getSummary().getSharerate();
+                }catch (Exception e){
+                    e.printStackTrace();
+                    return null;
+                }
+            }
+        };
+    }
+
+    /**
+     *
+     * @return
+     */
+    public Gauge<Float> getAverageShareRate() {
+         return new Gauge<Float>() {
+            @Override
+            public Float getValue() {
+                try {
+                    //"difficulty":"8.73 G"
+                    return (Float) TrexClient.getSummary().getSharerate_average();
+                }catch (Exception e){
+                    e.printStackTrace();
+                    return null;
+                }
+            }
+        };
+    }
 }
