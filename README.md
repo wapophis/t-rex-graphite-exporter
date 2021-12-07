@@ -86,9 +86,12 @@ When startup setup de the T-Rex miner to expose the api:
  
  ####Two-miners api pool:
  TBD
+ 
  ####EISOS (Spanish energy agency information )
  TBD
+ 
  ####AEMET (Spanish weather data)
  TBD
+ 
  #### Exchanges
  TBD
