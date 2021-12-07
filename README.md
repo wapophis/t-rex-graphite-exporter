@@ -83,10 +83,12 @@ When startup setup de the T-Rex miner to expose the api:
   
   - {WorkerName}.trex.active_pool.retries: Number of retries to connect to current active pool. 
    
+ 
  ####Two-miners api pool:
  TBD
  ####EISOS (Spanish energy agency information )
  TBD
  ####AEMET (Spanish weather data)
  TBD
- 
+ #### Exchanges
+ TBD
