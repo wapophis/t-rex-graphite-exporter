@@ -1,4 +1,7 @@
-[logo]: https://github.com/wapophis/t-rex-graphite-exporter/raw/master/src/main/resources/t-rex-graphite-logo-250.png "Logo Title Text 2"
+
+
+
+![alt text](https://github.com/wapophis/t-rex-graphite-exporter/raw/master/src/main/resources/t-rex-graphite-logo-50.png)
 # t-rex-graphite-exporter
 
 This is a tool to export data from some apis to a graphite enabled server, then you can use this data from grafana dashboards.
