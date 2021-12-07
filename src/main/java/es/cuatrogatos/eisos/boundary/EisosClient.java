@@ -12,7 +12,7 @@ import java.util.Date;
 
 public class EisosClient {
 
-    private static long cachedTtl=60*60*1000;
+    private static long cachedTtl=60*60*24*1000;
     private static Pvpc cachedData;
     private static long lastUpdatedData=0L;
 
@@ -24,7 +24,7 @@ public class EisosClient {
     }
 
     private static long getNextTick(){
-        long timeToNextTick=((new Date().getTime()+cachedTtl)/cachedTtl)*cachedTtl;
+        long timeToNextTick=((lastUpdatedData+cachedTtl)/cachedTtl)*cachedTtl;
         return timeToNextTick;
     }
 
