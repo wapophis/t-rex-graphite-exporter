@@ -42,7 +42,7 @@ usage: java -jar trexexporter.jar
 ```
 ### Supported integrations:
  
-####T-Rex miner
+#### T-Rex miner
 Main api to export data. 
 When startup setup de the T-Rex miner to expose the api:
  - turl: Uri in which the T-Rex miner is running
@@ -84,13 +84,13 @@ When startup setup de the T-Rex miner to expose the api:
   - {WorkerName}.trex.active_pool.retries: Number of retries to connect to current active pool. 
    
  
- ####Two-miners api pool:
+ #### Two-miners api pool:
  TBD
  
- ####EISOS (Spanish energy agency information )
+ #### EISOS (Spanish energy agency information )
  TBD
  
- ####AEMET (Spanish weather data)
+ #### AEMET (Spanish weather data)
  TBD
  
  #### Exchanges
