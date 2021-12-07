@@ -40,8 +40,53 @@ usage: java -jar trexexporter.jar
                                          consumption
 
 ```
-                                         
+### Supported integrations:
+ 
+####T-Rex miner
+Main api to export data. 
+When startup setup de the T-Rex miner to expose the api:
+ - turl: Uri in which the T-Rex miner is running
+ - tpoll: Polling interval to the T-Rex miner api, exporter will flush T-Rex data to the carbon server at the same rate. 
+                                          
+##### Exported Metrics
 
-### Exported Metrics
-
-TBD             
+ Metrics exported will be prefixed with the worker name settled in T-Rex at startup.
+ 
+ ###### GPU DATA
+ Every GPU will be prefixed with the T-Rex main prefix, and the {Vendor}.{Model}.{UUID} info. 
+ 
+ - {WorkerName}.{Vendor}.{Model}.{UUID}.memTemp: Memory temperature if is supported.
+ - {WorkerName}.{Vendor}.{Model}.{UUID}.coreTemp: GPU core temperatures. 
+ - {WorkerName}.{Vendor}.{Model}.{UUID}.memClock: Memory clock.
+ - {WorkerName}.{Vendor}.{Model}.{UUID}.coreClock: GPU core clock.
+ - {WorkerName}.{Vendor}.{Model}.{UUID}.hashRate: HashRate from GPU.
+ - {WorkerName}.{Vendor}.{Model}.{UUID}.fanSpeed: Fan speed percent from GPU.
+ - {WorkerName}.{Vendor}.{Model}.{UUID}.power: Power consumption from this GPU. 
+ 
+ ###### OPERATIONAL STATUS
+  
+ - {WorkerName}.trex.paused
+ - {WorkerName}.trex.hashRate
+ - {WorkerName}.trex.upTime
+ - {WorkerName}.trex.running
+ - {WorkerName}.trex.stopped
+ 
+ ###### Shares's info
+  - {WorkerName}.trex.acceptedCount: Number of accepted shares
+  - {WorkerName}.trex.rejectedCount: Number of rejected shares
+  - {WorkerName}.trex.invalidCount: Number of invalid shares
+  - {WorkerName}.trex.solvedCount: Number of resolved shares
+  - {WorkerName}.trex.shareRate: Processing share rate
+  - {WorkerName}.trex.shareRate_avg: Average Processing share rates. 
+  
+  ###### Active pool info
+  
+  - {WorkerName}.trex.active_pool.retries: Number of retries to connect to current active pool. 
+   
+ ####Two-miners api pool:
+ TBD
+ ####EISOS (Spanish energy agency information )
+ TBD
+ ####AEMET (Spanish weather data)
+ TBD
+ 
